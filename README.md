@@ -114,7 +114,7 @@ Se propone el grupo (3 dígitos) como nivel objetivo por dos razones:
 
 ## Licencia
 
-Por definir.
+El código se distribuye bajo la licencia MIT (ver `LICENSE`). Los datos de origen pertenecen al DANE y al Banco de la República y conservan sus propias condiciones de uso (ver [Fuentes](#fuentes)).
 
 ## Cómo citar
 

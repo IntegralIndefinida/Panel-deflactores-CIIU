@@ -2,11 +2,12 @@ cff-version: 1.2.0
 message: "Si usa este panel, por favor cítelo así."
 title: "Panel de deflactores IPP Colombia por CIIU (2006-2026)"
 type: software
+license: MIT
 version: 0.1.0
 date-released: 2026-10-08
 authors:
-  - family-names: "[APELLIDO]"
-    given-names: "[NOMBRE]"
+  - family-names: "Ramírez Bárcenas"
+    given-names: "Luis Armando"
 abstract: >-
   Panel mensual del Índice de Precios del Productor de Colombia por división y grupo
   CIIU Rev. 4 A.C. (diciembre 2006 - septiembre 2026), construido empalmando los anexos
@@ -17,4 +18,4 @@ keywords:
   - CIIU
   - deflactores
   - funciones de producción
-repository-code: "[URL DEL REPOSITORIO]"
+repository-code: "https://github.com/IntegralIndefinida/Panel-deflactores-CIIU" 
