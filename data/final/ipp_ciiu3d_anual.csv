@@ -1,0 +1,1483 @@
+ciiu_codigo,ciiu_descripcion,year,ipp
+011,Cultivos agrícolas transitorios,2007,51.13820232865567
+011,Cultivos agrícolas transitorios,2008,58.03392551967726
+011,Cultivos agrícolas transitorios,2009,64.25396318010883
+011,Cultivos agrícolas transitorios,2010,69.8567641810014
+011,Cultivos agrícolas transitorios,2011,79.82706380170781
+011,Cultivos agrícolas transitorios,2012,75.50143281293053
+011,Cultivos agrícolas transitorios,2013,68.56301292887163
+011,Cultivos agrícolas transitorios,2014,76.81715420807944
+011,Cultivos agrícolas transitorios,2015,95.87373520866079
+011,Cultivos agrícolas transitorios,2016,106.17714903954108
+011,Cultivos agrícolas transitorios,2017,99.0487272133423
+011,Cultivos agrícolas transitorios,2018,99.99999999999999
+011,Cultivos agrícolas transitorios,2019,114.15137349364795
+011,Cultivos agrícolas transitorios,2020,117.63188873238477
+011,Cultivos agrícolas transitorios,2021,136.9696722259647
+011,Cultivos agrícolas transitorios,2022,208.11643905525955
+011,Cultivos agrícolas transitorios,2023,213.09939371670032
+011,Cultivos agrícolas transitorios,2024,211.681330420996
+011,Cultivos agrícolas transitorios,2025,216.79152972557344
+012,Cultivos agrícolas permanentes,2007,53.70311523646631
+012,Cultivos agrícolas permanentes,2008,60.944703722237016
+012,Cultivos agrícolas permanentes,2009,67.47671666055919
+012,Cultivos agrícolas permanentes,2010,73.36053451289925
+012,Cultivos agrícolas permanentes,2011,83.83090940077163
+012,Cultivos agrícolas permanentes,2012,79.28831992983582
+012,Cultivos agrícolas permanentes,2013,72.00189323462511
+012,Cultivos agrícolas permanentes,2014,80.67003329646258
+012,Cultivos agrícolas permanentes,2015,87.92142459018737
+012,Cultivos agrícolas permanentes,2016,104.28248845950465
+012,Cultivos agrícolas permanentes,2017,96.87584856583442
+012,Cultivos agrícolas permanentes,2018,100.0
+012,Cultivos agrícolas permanentes,2019,113.89861514055825
+012,Cultivos agrícolas permanentes,2020,135.37251146903716
+012,Cultivos agrícolas permanentes,2021,181.66669048605854
+012,Cultivos agrícolas permanentes,2022,273.86560146346346
+012,Cultivos agrícolas permanentes,2023,310.4679081333696
+012,Cultivos agrícolas permanentes,2024,370.58852953366403
+012,Cultivos agrícolas permanentes,2025,439.124065684355
+014,Ganadería,2007,80.88439354074593
+014,Ganadería,2008,80.29663589349956
+014,Ganadería,2009,78.02778618360331
+014,Ganadería,2010,76.20468556188722
+014,Ganadería,2011,78.07380747589332
+014,Ganadería,2012,81.45571501217445
+014,Ganadería,2013,81.9205300643033
+014,Ganadería,2014,84.14270103487684
+014,Ganadería,2015,85.49668874172183
+014,Ganadería,2016,97.21998272386982
+014,Ganadería,2017,99.65591707457527
+014,Ganadería,2018,99.99999999999999
+014,Ganadería,2019,102.19118917362509
+014,Ganadería,2020,104.17218543046356
+014,Ganadería,2021,122.47696515980418
+014,Ganadería,2022,153.36092715231783
+014,Ganadería,2023,167.566945004319
+014,Ganadería,2024,162.70731356176213
+014,Ganadería,2025,168.01468471062478
+020,Silvicultura y extracción de madera,2007,66.86923571066332
+020,Silvicultura y extracción de madera,2008,62.60744143269693
+020,Silvicultura y extracción de madera,2009,64.83275480941323
+020,Silvicultura y extracción de madera,2010,75.96030218284905
+020,Silvicultura y extracción de madera,2011,91.68764762210516
+020,Silvicultura y extracción de madera,2012,89.37258700772243
+020,Silvicultura y extracción de madera,2013,87.25084783534749
+020,Silvicultura y extracción de madera,2014,87.25108899003568
+020,Silvicultura y extracción de madera,2015,91.72850365759223
+020,Silvicultura y extracción de madera,2016,95.1402515581418
+020,Silvicultura y extracción de madera,2017,99.3023133425055
+020,Silvicultura y extracción de madera,2018,99.99999999999999
+020,Silvicultura y extracción de madera,2019,101.8224056656968
+020,Silvicultura y extracción de madera,2020,100.34583605867182
+020,Silvicultura y extracción de madera,2021,103.05313094405726
+020,Silvicultura y extracción de madera,2022,112.8432986745457
+020,Silvicultura y extracción de madera,2023,129.52763305290537
+020,Silvicultura y extracción de madera,2024,134.89335468495085
+020,Silvicultura y extracción de madera,2025,136.6826803798182
+030,Pesca y acuicultura,2007,73.56477086565995
+030,Pesca y acuicultura,2008,66.71802043157643
+030,Pesca y acuicultura,2009,68.90174938312832
+030,Pesca y acuicultura,2010,71.37786246737703
+030,Pesca y acuicultura,2011,74.7059658889389
+030,Pesca y acuicultura,2012,77.34861157911674
+030,Pesca y acuicultura,2013,80.86946734973944
+030,Pesca y acuicultura,2014,86.09195596097773
+030,Pesca y acuicultura,2015,93.77393434518582
+030,Pesca y acuicultura,2016,102.01657234351826
+030,Pesca y acuicultura,2017,98.00556346705822
+030,Pesca y acuicultura,2018,100.0
+030,Pesca y acuicultura,2019,102.78616069122758
+030,Pesca y acuicultura,2020,108.4248895054122
+030,Pesca y acuicultura,2021,118.88848716491917
+030,Pesca y acuicultura,2022,135.93379916916925
+030,Pesca y acuicultura,2023,144.5955418477499
+030,Pesca y acuicultura,2024,159.50327241066356
+030,Pesca y acuicultura,2025,163.8441048647133
+051,Extracción de hulla (carbón de piedra),2007,86.41921114749799
+051,Extracción de hulla (carbón de piedra),2008,103.15905583480448
+051,Extracción de hulla (carbón de piedra),2009,70.03426525514816
+051,Extracción de hulla (carbón de piedra),2010,76.70419527944796
+051,Extracción de hulla (carbón de piedra),2011,94.60287935257666
+051,Extracción de hulla (carbón de piedra),2012,92.15312946448847
+051,Extracción de hulla (carbón de piedra),2013,86.45646197521292
+051,Extracción de hulla (carbón de piedra),2014,84.51806435848403
+051,Extracción de hulla (carbón de piedra),2015,87.35430032112674
+051,Extracción de hulla (carbón de piedra),2016,93.49059760899443
+051,Extracción de hulla (carbón de piedra),2017,100.56464188318397
+051,Extracción de hulla (carbón de piedra),2018,100.00000000000004
+051,Extracción de hulla (carbón de piedra),2019,102.47502545516689
+051,Extracción de hulla (carbón de piedra),2020,104.25866721730527
+051,Extracción de hulla (carbón de piedra),2021,113.99001730239316
+051,Extracción de hulla (carbón de piedra),2022,180.64196862784195
+051,Extracción de hulla (carbón de piedra),2023,164.79354613615493
+051,Extracción de hulla (carbón de piedra),2024,136.84840113070786
+051,Extracción de hulla (carbón de piedra),2025,116.89511047186407
+061,Extracción de petróleo crudo,2007,55.89628204671798
+061,Extracción de petróleo crudo,2008,86.5748208325485
+061,Extracción de petróleo crudo,2009,68.20855897893482
+061,Extracción de petróleo crudo,2010,75.46577700041509
+061,Extracción de petróleo crudo,2011,79.50423343198993
+061,Extracción de petróleo crudo,2012,75.55580366557336
+061,Extracción de petróleo crudo,2013,71.85648878082763
+061,Extracción de petróleo crudo,2014,76.3989301050237
+061,Extracción de petróleo crudo,2015,62.64218231871362
+061,Extracción de petróleo crudo,2016,60.14202590252142
+061,Extracción de petróleo crudo,2017,69.11906400550585
+061,Extracción de petróleo crudo,2018,99.99999999999999
+061,Extracción de petróleo crudo,2019,104.73628229994368
+061,Extracción de petróleo crudo,2020,72.99443158355751
+061,Extracción de petróleo crudo,2021,130.4861415253707
+061,Extracción de petróleo crudo,2022,209.34555465181754
+061,Extracción de petróleo crudo,2023,170.32284302070948
+061,Extracción de petróleo crudo,2024,155.72170431083023
+061,Extracción de petróleo crudo,2025,135.41325157980353
+062,Extracción de gas natural,2007,51.14234464801009
+062,Extracción de gas natural,2008,79.21169642655853
+062,Extracción de gas natural,2009,62.40747154397954
+062,Extracción de gas natural,2010,69.04746854646508
+062,Extracción de gas natural,2011,72.74245724887916
+062,Extracción de gas natural,2012,69.12983851041345
+062,Extracción de gas natural,2013,65.74514761739387
+062,Extracción de gas natural,2014,69.90125767049602
+062,Extracción de gas natural,2015,81.47085930836296
+062,Extracción de gas natural,2016,92.42645417231965
+062,Extracción de gas natural,2017,94.79755219335154
+062,Extracción de gas natural,2018,100.0
+062,Extracción de gas natural,2019,114.8093447136879
+062,Extracción de gas natural,2020,128.0370033259487
+062,Extracción de gas natural,2021,134.9808514657645
+062,Extracción de gas natural,2022,152.45954192355472
+062,Extracción de gas natural,2023,176.14991384590726
+062,Extracción de gas natural,2024,157.74556778695612
+062,Extracción de gas natural,2025,208.9875033631581
+072,Extracción de minerales metalíferos no ferrosos,2007,59.24235588571409
+072,Extracción de minerales metalíferos no ferrosos,2008,59.94109760663352
+072,Extracción de minerales metalíferos no ferrosos,2009,62.527704402324815
+072,Extracción de minerales metalíferos no ferrosos,2010,65.85113178399476
+072,Extracción de minerales metalíferos no ferrosos,2011,71.51178744685394
+072,Extracción de minerales metalíferos no ferrosos,2012,73.55136197027174
+072,Extracción de minerales metalíferos no ferrosos,2013,70.60659975933847
+072,Extracción de minerales metalíferos no ferrosos,2014,69.58160414999949
+072,Extracción de minerales metalíferos no ferrosos,2015,77.09080805518306
+072,Extracción de minerales metalíferos no ferrosos,2016,93.18909385230552
+072,Extracción de minerales metalíferos no ferrosos,2017,100.53153577598181
+072,Extracción de minerales metalíferos no ferrosos,2018,99.99999999999999
+072,Extracción de minerales metalíferos no ferrosos,2019,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2020,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2021,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2022,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2023,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2024,98.29304533758561
+072,Extracción de minerales metalíferos no ferrosos,2025,98.29304533758561
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2007,69.45809515180845
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2008,71.4872466216413
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2009,74.03198339162064
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2010,72.27807779234324
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2011,74.41709871570342
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2012,75.99589987342166
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2013,78.149798951947
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2014,79.00014274330957
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2015,93.34447450793142
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2016,102.32572019735794
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2017,99.99999999999996
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2018,99.99999999999996
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2019,99.99999999999996
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2020,94.76696376465593
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2021,87.47148389835003
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2022,96.99519868428031
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2023,103.11157090561831
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2024,97.33142341768792
+081,"Extracción de piedra, arena, arcillas, cal, yeso, caolín, bentonitas y similares",2025,81.10642474401824
+089,Extracción de otros minerales no metálicos n.c.p.,2007,41.45656852890553
+089,Extracción de otros minerales no metálicos n.c.p.,2008,53.39019697332037
+089,Extracción de otros minerales no metálicos n.c.p.,2009,71.60807933043486
+089,Extracción de otros minerales no metálicos n.c.p.,2010,59.83339950841849
+089,Extracción de otros minerales no metálicos n.c.p.,2011,67.8219397442306
+089,Extracción de otros minerales no metálicos n.c.p.,2012,72.96645341762947
+089,Extracción de otros minerales no metálicos n.c.p.,2013,75.24096059801217
+089,Extracción de otros minerales no metálicos n.c.p.,2014,78.41736608615842
+089,Extracción de otros minerales no metálicos n.c.p.,2015,93.09934866487241
+089,Extracción de otros minerales no metálicos n.c.p.,2016,102.47040546158728
+089,Extracción de otros minerales no metálicos n.c.p.,2017,99.8606886793141
+089,Extracción de otros minerales no metálicos n.c.p.,2018,100.0
+089,Extracción de otros minerales no metálicos n.c.p.,2019,108.91519514525577
+089,Extracción de otros minerales no metálicos n.c.p.,2020,123.14245494263439
+089,Extracción de otros minerales no metálicos n.c.p.,2021,124.46992407168334
+089,Extracción de otros minerales no metálicos n.c.p.,2022,160.1204933517137
+089,Extracción de otros minerales no metálicos n.c.p.,2023,164.84394943947254
+089,Extracción de otros minerales no metálicos n.c.p.,2024,151.3861841097569
+089,Extracción de otros minerales no metálicos n.c.p.,2025,149.6998606886793
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2007,72.99860030048234
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2008,75.29395452426935
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2009,76.91308644975622
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2010,76.04966462253999
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2011,79.41176816187368
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2012,81.24113955829715
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2013,82.37124871440007
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2014,84.99722610618048
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2015,87.87902876138169
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2016,96.7300187888423
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2017,98.99262899262898
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2018,100.0
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2019,101.27836392542274
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2020,103.49183408006935
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2021,120.94883653707183
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2022,144.9848243965891
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2023,159.2614539673363
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2024,161.13311172134698
+101,"Procesamiento y conservación de carne, pescado, crustáceos y moluscos",2025,166.17719323601673
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2007,69.9236149021127
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2008,77.92033683010418
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2009,80.16169240537828
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2010,81.20168912507883
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2011,86.81251698340283
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2012,86.96752905601176
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2013,86.35771538829374
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2014,87.09012790537754
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2015,90.73277444172014
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2016,96.53213137378691
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2017,99.17120582578438
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2018,100.0
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2019,102.60530604454493
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2020,105.685572080868
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2021,109.33109189411402
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2022,120.2566398966393
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2023,132.68488203080264
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2024,136.6680859185741
+102,"Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos",2025,142.57682312695454
+103,Elaboración de aceites y grasas de origen vegetal y animal,2007,68.53466887086843
+103,Elaboración de aceites y grasas de origen vegetal y animal,2008,82.06360945370564
+103,Elaboración de aceites y grasas de origen vegetal y animal,2009,82.51055517990342
+103,Elaboración de aceites y grasas de origen vegetal y animal,2010,82.34063729403398
+103,Elaboración de aceites y grasas de origen vegetal y animal,2011,91.08720252804487
+103,Elaboración de aceites y grasas de origen vegetal y animal,2012,89.86188708043865
+103,Elaboración de aceites y grasas de origen vegetal y animal,2013,86.96487124413039
+103,Elaboración de aceites y grasas de origen vegetal y animal,2014,87.95241380853976
+103,Elaboración de aceites y grasas de origen vegetal y animal,2015,95.69107324952178
+103,Elaboración de aceites y grasas de origen vegetal y animal,2016,103.8027823057857
+103,Elaboración de aceites y grasas de origen vegetal y animal,2017,102.26276339980201
+103,Elaboración de aceites y grasas de origen vegetal y animal,2018,100.00000000000001
+103,Elaboración de aceites y grasas de origen vegetal y animal,2019,100.48083722245794
+103,Elaboración de aceites y grasas de origen vegetal y animal,2020,111.62792428674574
+103,Elaboración de aceites y grasas de origen vegetal y animal,2021,140.52505042836196
+103,Elaboración de aceites y grasas de origen vegetal y animal,2022,176.14422139353476
+103,Elaboración de aceites y grasas de origen vegetal y animal,2023,165.199592107124
+103,Elaboración de aceites y grasas de origen vegetal y animal,2024,151.72721791751337
+103,Elaboración de aceites y grasas de origen vegetal y animal,2025,161.0253890985419
+104,Elaboración de productos lácteos,2007,72.11840411992937
+104,Elaboración de productos lácteos,2008,80.81681292429025
+104,Elaboración de productos lácteos,2009,83.99074733781944
+104,Elaboración de productos lácteos,2010,83.12784802802462
+104,Elaboración de productos lácteos,2011,84.42586530240533
+104,Elaboración de productos lácteos,2012,87.37292887058625
+104,Elaboración de productos lácteos,2013,87.20983017828361
+104,Elaboración de productos lácteos,2014,88.99149997620533
+104,Elaboración de productos lácteos,2015,90.3329977253235
+104,Elaboración de productos lácteos,2016,96.49326919491368
+104,Elaboración de productos lácteos,2017,99.22884737293508
+104,Elaboración de productos lácteos,2018,100.0
+104,Elaboración de productos lácteos,2019,102.3395607264049
+104,Elaboración de productos lácteos,2020,107.46243054778687
+104,Elaboración de productos lácteos,2021,112.95894395346237
+104,Elaboración de productos lácteos,2022,141.51620240891972
+104,Elaboración de productos lácteos,2023,168.52146026774062
+104,Elaboración de productos lácteos,2024,171.0273334079129
+104,Elaboración de productos lácteos,2025,173.4854756311295
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2007,66.4703559589966
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2008,83.30969109029742
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2009,84.05850218136639
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2010,77.23117248645637
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2011,84.49586580226604
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2012,88.45275298141168
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2013,86.06090326864454
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2014,86.15840471279415
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2015,104.43481697232266
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2016,112.17964667827819
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2017,103.19072640252917
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2018,100.00000000000001
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2019,105.28811673960455
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2020,118.11322687821087
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2021,115.32207309398008
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2022,153.81643077733708
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2023,170.45577623933377
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2024,156.83005722816623
+105,"Elaboración de productos de molinería, almidones y productos derivados del almidón",2025,151.02674062907076
+106,Elaboración de productos de café,2007,68.10070718364028
+106,Elaboración de productos de café,2008,73.21419757584208
+106,Elaboración de productos de café,2009,92.54256658395941
+106,Elaboración de productos de café,2010,94.81084185416627
+106,Elaboración de productos de café,2011,104.84570579313275
+106,Elaboración de productos de café,2012,101.71997650418054
+106,Elaboración de productos de café,2013,89.17934315785645
+106,Elaboración de productos de café,2014,90.31200750426787
+106,Elaboración de productos de café,2015,95.29819066700442
+106,Elaboración de productos de café,2016,98.63129370763573
+106,Elaboración de productos de café,2017,100.06601724124697
+106,Elaboración de productos de café,2018,100.0
+106,Elaboración de productos de café,2019,102.39350881637228
+106,Elaboración de productos de café,2020,111.33270386661447
+106,Elaboración de productos de café,2021,128.8955929653256
+106,Elaboración de productos de café,2022,164.47581542807575
+106,Elaboración de productos de café,2023,170.19551850401862
+106,Elaboración de productos de café,2024,168.349338676124
+106,Elaboración de productos de café,2025,199.51945589510933
+107,Elaboración de azúcar y panela,2007,68.55433818658794
+107,Elaboración de azúcar y panela,2008,73.01121986405077
+107,Elaboración de azúcar y panela,2009,78.91947303199744
+107,Elaboración de azúcar y panela,2010,90.93232788440406
+107,Elaboración de azúcar y panela,2011,92.51402426742737
+107,Elaboración de azúcar y panela,2012,89.44823164116798
+107,Elaboración de azúcar y panela,2013,85.69407097017358
+107,Elaboración de azúcar y panela,2014,86.12006687442162
+107,Elaboración de azúcar y panela,2015,103.29860616252887
+107,Elaboración de azúcar y panela,2016,133.9772824444888
+107,Elaboración de azúcar y panela,2017,118.80326653934954
+107,Elaboración de azúcar y panela,2018,100.0
+107,Elaboración de azúcar y panela,2019,113.7253085540005
+107,Elaboración de azúcar y panela,2020,119.50161046660776
+107,Elaboración de azúcar y panela,2021,140.5951600490266
+107,Elaboración de azúcar y panela,2022,192.8612148333951
+107,Elaboración de azúcar y panela,2023,204.754439472109
+107,Elaboración de azúcar y panela,2024,192.12937890146225
+107,Elaboración de azúcar y panela,2025,165.67354559188212
+108,Elaboración de otros productos alimenticios,2007,68.37841546057294
+108,Elaboración de otros productos alimenticios,2008,71.9414463381009
+108,Elaboración de otros productos alimenticios,2009,75.04224991765675
+108,Elaboración de otros productos alimenticios,2010,76.30931945416472
+108,Elaboración de otros productos alimenticios,2011,79.36063364102135
+108,Elaboración de otros productos alimenticios,2012,80.58699329926061
+108,Elaboración de otros productos alimenticios,2013,81.64337192036002
+108,Elaboración de otros productos alimenticios,2014,82.50424150020493
+108,Elaboración de otros productos alimenticios,2015,86.68937235003824
+108,Elaboración de otros productos alimenticios,2016,95.06359908250505
+108,Elaboración de otros productos alimenticios,2017,98.71689719886008
+108,Elaboración de otros productos alimenticios,2018,100.00000000000001
+108,Elaboración de otros productos alimenticios,2019,102.74831445054565
+108,Elaboración de otros productos alimenticios,2020,106.16459303537918
+108,Elaboración de otros productos alimenticios,2021,111.32758740529647
+108,Elaboración de otros productos alimenticios,2022,127.58184472092863
+108,Elaboración de otros productos alimenticios,2023,145.25960936956977
+108,Elaboración de otros productos alimenticios,2024,154.51866268158756
+108,Elaboración de otros productos alimenticios,2025,162.2888718982415
+109,Elaboración de alimentos preparados para animales,2007,61.720473086619165
+109,Elaboración de alimentos preparados para animales,2008,77.35649181666993
+109,Elaboración de alimentos preparados para animales,2009,78.05179386713276
+109,Elaboración de alimentos preparados para animales,2010,71.71233603501119
+109,Elaboración de alimentos preparados para animales,2011,78.4579040677379
+109,Elaboración de alimentos preparados para animales,2012,82.13203737308531
+109,Elaboración de alimentos preparados para animales,2013,79.91110604671859
+109,Elaboración de alimentos preparados para animales,2014,80.00164016787261
+109,Elaboración de alimentos preparados para animales,2015,88.2211440453378
+109,Elaboración de alimentos preparados para animales,2016,96.8741930661448
+109,Elaboración de alimentos preparados para animales,2017,97.97841834169147
+109,Elaboración de alimentos preparados para animales,2018,100.0
+109,Elaboración de alimentos preparados para animales,2019,104.67851755208547
+109,Elaboración de alimentos preparados para animales,2020,112.1566708797108
+109,Elaboración de alimentos preparados para animales,2021,130.52146613935665
+109,Elaboración de alimentos preparados para animales,2022,162.07784618311794
+109,Elaboración de alimentos preparados para animales,2023,180.54796754596975
+109,Elaboración de alimentos preparados para animales,2024,164.1395197129694
+109,Elaboración de alimentos preparados para animales,2025,166.25011891656814
+110,Elaboración de bebidas,2007,65.48157607370896
+110,Elaboración de bebidas,2008,70.60450405554629
+110,Elaboración de bebidas,2009,77.10062650527273
+110,Elaboración de bebidas,2010,80.71907131377958
+110,Elaboración de bebidas,2011,82.31321506643592
+110,Elaboración de bebidas,2012,84.8114363272944
+110,Elaboración de bebidas,2013,84.51096664776794
+110,Elaboración de bebidas,2014,86.09390282800854
+110,Elaboración de bebidas,2015,88.26259995197942
+110,Elaboración de bebidas,2016,93.29676006431852
+110,Elaboración de bebidas,2017,97.35377361922572
+110,Elaboración de bebidas,2018,100.00000000000001
+110,Elaboración de bebidas,2019,102.59529543585978
+110,Elaboración de bebidas,2020,103.81472777409947
+110,Elaboración de bebidas,2021,105.91235511965137
+110,Elaboración de bebidas,2022,111.3015766765376
+110,Elaboración de bebidas,2023,119.38213487969387
+110,Elaboración de bebidas,2024,122.16441964188273
+110,Elaboración de bebidas,2025,126.05772658813602
+120,Elaboración de productos de tabaco,2007,51.8955602152817
+120,Elaboración de productos de tabaco,2008,56.616170226619374
+120,Elaboración de productos de tabaco,2009,61.79926158163906
+120,Elaboración de productos de tabaco,2010,66.45205763819068
+120,Elaboración de productos de tabaco,2011,72.49839075580654
+120,Elaboración de productos de tabaco,2012,70.25908572084232
+120,Elaboración de productos de tabaco,2013,68.82273386171673
+120,Elaboración de productos de tabaco,2014,73.82852058981483
+120,Elaboración de productos de tabaco,2015,81.52251812295066
+120,Elaboración de productos de tabaco,2016,90.36550328845141
+120,Elaboración de productos de tabaco,2017,95.80207137556842
+120,Elaboración de productos de tabaco,2018,100.0
+120,Elaboración de productos de tabaco,2019,113.12907092526937
+120,Elaboración de productos de tabaco,2020,125.06326384352424
+120,Elaboración de productos de tabaco,2021,139.87112568416913
+120,Elaboración de productos de tabaco,2022,140.53832932715173
+120,Elaboración de productos de tabaco,2023,143.54391684054974
+120,Elaboración de productos de tabaco,2024,153.23866483164522
+120,Elaboración de productos de tabaco,2025,164.18663943731647
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2007,74.60405196737621
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2008,75.17539364032982
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2009,76.57410521817002
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2010,77.21592847053071
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2011,81.77105749717616
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2012,82.44663158156415
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2013,82.75799726067807
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2014,83.92658292423508
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2015,91.18150380958467
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2016,97.27612920634243
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2017,98.14526837512159
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2018,99.99999999999999
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2019,104.25125506820326
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2020,108.52239240497339
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2021,113.36869536814147
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2022,132.16169964993003
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2023,137.69962152681617
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2024,134.2173842035376
+131,"Preparación, hilatura, tejeduría y acabado de productos textiles",2025,132.1162544646344
+139,Fabricación de otros productos textiles,2007,78.38763006757054
+139,Fabricación de otros productos textiles,2008,77.74729092167031
+139,Fabricación de otros productos textiles,2009,80.33129753574076
+139,Fabricación de otros productos textiles,2010,78.48253048787068
+139,Fabricación de otros productos textiles,2011,81.15450733238968
+139,Fabricación de otros productos textiles,2012,81.80411909073244
+139,Fabricación de otros productos textiles,2013,82.24882026621121
+139,Fabricación de otros productos textiles,2014,84.08636758221313
+139,Fabricación de otros productos textiles,2015,92.35802825021621
+139,Fabricación de otros productos textiles,2016,96.98616315941194
+139,Fabricación de otros productos textiles,2017,98.66748342461806
+139,Fabricación de otros productos textiles,2018,100.0
+139,Fabricación de otros productos textiles,2019,104.67065436725282
+139,Fabricación de otros productos textiles,2020,108.341741135774
+139,Fabricación de otros productos textiles,2021,114.786682040934
+139,Fabricación de otros productos textiles,2022,128.5896511963102
+139,Fabricación de otros productos textiles,2023,135.0987316229461
+139,Fabricación de otros productos textiles,2024,136.90184491207842
+139,Fabricación de otros productos textiles,2025,139.8962236955895
+141,"Confección de prendas de vestir, excepto prendas de piel",2007,87.2948769595061
+141,"Confección de prendas de vestir, excepto prendas de piel",2008,87.15828019913972
+141,"Confección de prendas de vestir, excepto prendas de piel",2009,88.16659929582259
+141,"Confección de prendas de vestir, excepto prendas de piel",2010,88.7834878910255
+141,"Confección de prendas de vestir, excepto prendas de piel",2011,89.89241858002123
+141,"Confección de prendas de vestir, excepto prendas de piel",2012,89.8549646295982
+141,"Confección de prendas de vestir, excepto prendas de piel",2013,90.61285633227605
+141,"Confección de prendas de vestir, excepto prendas de piel",2014,92.01701227754745
+141,"Confección de prendas de vestir, excepto prendas de piel",2015,93.61076408557263
+141,"Confección de prendas de vestir, excepto prendas de piel",2016,96.78365522646328
+141,"Confección de prendas de vestir, excepto prendas de piel",2017,98.32160343904467
+141,"Confección de prendas de vestir, excepto prendas de piel",2018,100.00000000000001
+141,"Confección de prendas de vestir, excepto prendas de piel",2019,101.18954319368682
+141,"Confección de prendas de vestir, excepto prendas de piel",2020,102.37287872556705
+141,"Confección de prendas de vestir, excepto prendas de piel",2021,104.27164728065617
+141,"Confección de prendas de vestir, excepto prendas de piel",2022,108.84746998983496
+141,"Confección de prendas de vestir, excepto prendas de piel",2023,116.04990960092498
+141,"Confección de prendas de vestir, excepto prendas de piel",2024,118.9372482987127
+141,"Confección de prendas de vestir, excepto prendas de piel",2025,122.414314868126
+143,Fabricación de artículos de punto y ganchillo,2007,90.13262700235997
+143,Fabricación de artículos de punto y ganchillo,2008,89.85087846682308
+143,Fabricación de artículos de punto y ganchillo,2009,90.75815359186758
+143,Fabricación de artículos de punto y ganchillo,2010,89.77390207647746
+143,Fabricación de artículos de punto y ganchillo,2011,93.36264602249362
+143,Fabricación de artículos de punto y ganchillo,2012,93.27744885259652
+143,Fabricación de artículos de punto y ganchillo,2013,92.23639922394169
+143,Fabricación de artículos de punto y ganchillo,2014,94.24899552686162
+143,Fabricación de artículos de punto y ganchillo,2015,96.87455288301037
+143,Fabricación de artículos de punto y ganchillo,2016,100.8219003863091
+143,Fabricación de artículos de punto y ganchillo,2017,100.38074495652036
+143,Fabricación de artículos de punto y ganchillo,2018,100.0
+143,Fabricación de artículos de punto y ganchillo,2019,101.36718439502091
+143,Fabricación de artículos de punto y ganchillo,2020,104.8813252150136
+143,Fabricación de artículos de punto y ganchillo,2021,108.96300653386963
+143,Fabricación de artículos de punto y ganchillo,2022,111.39134858432827
+143,Fabricación de artículos de punto y ganchillo,2023,115.748056531485
+143,Fabricación de artículos de punto y ganchillo,2024,120.1922006899512
+143,Fabricación de artículos de punto y ganchillo,2025,122.71433794890548
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2007,89.27071657007536
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2008,87.22258544819516
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2009,87.71622699912565
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2010,85.4016273935312
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2011,84.73165722892027
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2012,85.1647033238378
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2013,86.51197912346716
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2014,90.09674111389256
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2015,96.08796062300256
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2016,99.75194979899379
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2017,101.7775635094049
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2018,99.99999999999999
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2019,102.22545352752267
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2020,103.08390939558173
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2021,105.9049944402541
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2022,123.66974331858508
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2023,131.96970521683008
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2024,132.9121404632862
+151,"Curtido y recurtido de cueros; fabricación de artículos de viaje, bolsos de mano y artículos similares, y fabricación de",2025,136.6569986703265
+152,Fabricación de calzado,2007,92.2564030919719
+152,Fabricación de calzado,2008,89.7764527431816
+152,Fabricación de calzado,2009,91.16027468116503
+152,Fabricación de calzado,2010,89.4493821689892
+152,Fabricación de calzado,2011,89.35535942407398
+152,Fabricación de calzado,2012,91.49377416099264
+152,Fabricación de calzado,2013,92.30783433705375
+152,Fabricación de calzado,2014,92.4862364684314
+152,Fabricación de calzado,2015,95.30104601059112
+152,Fabricación de calzado,2016,99.49819241353259
+152,Fabricación de calzado,2017,100.19501892377302
+152,Fabricación de calzado,2018,99.99999999999999
+152,Fabricación de calzado,2019,100.66522265302818
+152,Fabricación de calzado,2020,102.27933184820898
+152,Fabricación de calzado,2021,106.37087511851445
+152,Fabricación de calzado,2022,116.09638405623944
+152,Fabricación de calzado,2023,124.64561284504087
+152,Fabricación de calzado,2024,125.93366273288574
+152,Fabricación de calzado,2025,126.36532517285765
+161,"Aserrado, acepillado e impregnación de la madera",2007,67.00517561265806
+161,"Aserrado, acepillado e impregnación de la madera",2008,72.84624034697703
+161,"Aserrado, acepillado e impregnación de la madera",2009,82.19204966165441
+161,"Aserrado, acepillado e impregnación de la madera",2010,82.27717017416578
+161,"Aserrado, acepillado e impregnación de la madera",2011,83.7538260216452
+161,"Aserrado, acepillado e impregnación de la madera",2012,84.87043796216673
+161,"Aserrado, acepillado e impregnación de la madera",2013,85.92677823544415
+161,"Aserrado, acepillado e impregnación de la madera",2014,86.45336227557647
+161,"Aserrado, acepillado e impregnación de la madera",2015,88.94712524184932
+161,"Aserrado, acepillado e impregnación de la madera",2016,93.67076727598256
+161,"Aserrado, acepillado e impregnación de la madera",2017,97.84718010915708
+161,"Aserrado, acepillado e impregnación de la madera",2018,100.0
+161,"Aserrado, acepillado e impregnación de la madera",2019,101.34497097808197
+161,"Aserrado, acepillado e impregnación de la madera",2020,104.33812700337869
+161,"Aserrado, acepillado e impregnación de la madera",2021,111.62320598342431
+161,"Aserrado, acepillado e impregnación de la madera",2022,122.25230298304889
+161,"Aserrado, acepillado e impregnación de la madera",2023,133.72967743798552
+161,"Aserrado, acepillado e impregnación de la madera",2024,144.65549106240437
+161,"Aserrado, acepillado e impregnación de la madera",2025,151.1240578705709
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2007,72.52473359750451
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2008,75.7013724489234
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2009,76.08478039412645
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2010,75.8059922913354
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2011,79.02126915273597
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2012,81.30210060350213
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2013,84.16904094414458
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2014,85.73239427109662
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2015,89.08754845623298
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2016,94.85986349546543
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2017,97.04695669684918
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2018,100.0
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2019,102.71714505584605
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2020,106.32538135684645
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2021,115.63113569183633
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2022,132.5690613695044
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2023,145.4327078673504
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2024,146.67836568543547
+162,"Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros",2025,151.1144034579231
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2007,72.25613211186541
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2008,77.58396437571204
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2009,80.20068100050163
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2010,81.8319200177475
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2011,84.52018748774618
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2012,85.07215115078773
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2013,84.78414396713097
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2014,87.84158974770428
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2015,94.07310509792195
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2016,96.84930482882345
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2017,99.27642397966811
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2018,100.0
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2019,101.63327851696816
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2020,102.8845866347735
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2021,103.24712214082824
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2022,108.42876364179996
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2023,115.28404843773359
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2024,120.07773957243235
+163,"Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción",2025,122.47570638361488
+164,Fabricación de recipientes de madera,2007,72.40290724254065
+164,Fabricación de recipientes de madera,2008,77.43095084070153
+164,Fabricación de recipientes de madera,2009,79.16335034568634
+164,Fabricación de recipientes de madera,2010,82.21734455772867
+164,Fabricación de recipientes de madera,2011,84.98423569670973
+164,Fabricación de recipientes de madera,2012,87.63260332256333
+164,Fabricación de recipientes de madera,2013,88.58884642362102
+164,Fabricación de recipientes de madera,2014,90.43861872801364
+164,Fabricación de recipientes de madera,2015,91.71062889321153
+164,Fabricación de recipientes de madera,2016,93.91996730269979
+164,Fabricación de recipientes de madera,2017,97.00123371757707
+164,Fabricación de recipientes de madera,2018,100.0
+164,Fabricación de recipientes de madera,2019,101.26323597308527
+164,Fabricación de recipientes de madera,2020,102.93594508064577
+164,Fabricación de recipientes de madera,2021,105.37613248461638
+164,Fabricación de recipientes de madera,2022,113.94176550283451
+164,Fabricación de recipientes de madera,2023,128.63889919089317
+164,Fabricación de recipientes de madera,2024,135.9155622497559
+164,Fabricación de recipientes de madera,2025,140.08825243526766
+170,"Fabricación de papel, cartón y productos de papel y cartón",2007,75.69819244494148
+170,"Fabricación de papel, cartón y productos de papel y cartón",2008,76.55887240488853
+170,"Fabricación de papel, cartón y productos de papel y cartón",2009,80.17220460042961
+170,"Fabricación de papel, cartón y productos de papel y cartón",2010,79.11685263669476
+170,"Fabricación de papel, cartón y productos de papel y cartón",2011,80.77753346657921
+170,"Fabricación de papel, cartón y productos de papel y cartón",2012,80.749961409528
+170,"Fabricación de papel, cartón y productos de papel y cartón",2013,81.14777418156969
+170,"Fabricación de papel, cartón y productos de papel y cartón",2014,82.71732827274491
+170,"Fabricación de papel, cartón y productos de papel y cartón",2015,89.28551336146273
+170,"Fabricación de papel, cartón y productos de papel y cartón",2016,95.65541490857947
+170,"Fabricación de papel, cartón y productos de papel y cartón",2017,97.0661040787623
+170,"Fabricación de papel, cartón y productos de papel y cartón",2018,100.0
+170,"Fabricación de papel, cartón y productos de papel y cartón",2019,104.42194092827005
+170,"Fabricación de papel, cartón y productos de papel y cartón",2020,107.90576652601969
+170,"Fabricación de papel, cartón y productos de papel y cartón",2021,111.28762306610408
+170,"Fabricación de papel, cartón y productos de papel y cartón",2022,134.95147679324893
+170,"Fabricación de papel, cartón y productos de papel y cartón",2023,148.48382559774964
+170,"Fabricación de papel, cartón y productos de papel y cartón",2024,147.3945147679325
+170,"Fabricación de papel, cartón y productos de papel y cartón",2025,150.39803094233474
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2007,61.111221727389335
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2008,62.45707093135911
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2009,64.8279330460535
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2010,64.34942011643619
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2011,64.84632151329882
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2012,64.53708382982133
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2013,64.75333417251436
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2014,65.86751533734385
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2015,74.88351279541324
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2016,97.00237728988952
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2017,98.34372814990911
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2018,100.0
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2019,101.67249335757236
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2020,103.87861837505245
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2021,105.39393091875263
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2022,113.48902251433367
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2023,119.60229338554048
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2024,119.66997622710112
+181,Actividades de impresión y actividades de servicios relacionados con la impresión,2025,119.02782827576563
+191,Fabricación de productos de hornos de coque,2007,81.83012566766517
+191,Fabricación de productos de hornos de coque,2008,86.99294145765099
+191,Fabricación de productos de hornos de coque,2009,81.21090495227871
+191,Fabricación de productos de hornos de coque,2010,82.47385570123923
+191,Fabricación de productos de hornos de coque,2011,88.51900694597823
+191,Fabricación de productos de hornos de coque,2012,88.09297732689397
+191,Fabricación de productos de hornos de coque,2013,86.53086872358496
+191,Fabricación de productos de hornos de coque,2014,90.1005788313774
+191,Fabricación de productos de hornos de coque,2015,94.88566277635447
+191,Fabricación de productos de hornos de coque,2016,96.61179112502765
+191,Fabricación de productos de hornos de coque,2017,100.1787013315621
+191,Fabricación de productos de hornos de coque,2018,99.99999999999996
+191,Fabricación de productos de hornos de coque,2019,101.47072777303346
+191,Fabricación de productos de hornos de coque,2020,92.60682544200903
+191,Fabricación de productos de hornos de coque,2021,99.49552455957235
+191,Fabricación de productos de hornos de coque,2022,126.97362178574815
+191,Fabricación de productos de hornos de coque,2023,126.53635702312044
+191,Fabricación de productos de hornos de coque,2024,121.76044533004392
+191,Fabricación de productos de hornos de coque,2025,119.1534617452636
+192,Fabricación de productos de la refinación del petróleo,2007,66.7344101795784
+192,Fabricación de productos de la refinación del petróleo,2008,79.34712785193348
+192,Fabricación de productos de la refinación del petróleo,2009,74.73407155533077
+192,Fabricación de productos de la refinación del petróleo,2010,82.97315753831639
+192,Fabricación de productos de la refinación del petróleo,2011,97.32530298081575
+192,Fabricación de productos de la refinación del petróleo,2012,100.2922484477326
+192,Fabricación de productos de la refinación del petróleo,2013,99.43373259551545
+192,Fabricación de productos de la refinación del petróleo,2014,101.51123430994893
+192,Fabricación de productos de la refinación del petróleo,2015,92.40398078358054
+192,Fabricación de productos de la refinación del petróleo,2016,85.4418015812464
+192,Fabricación de productos de la refinación del petróleo,2017,91.19918170918817
+192,Fabricación de productos de la refinación del petróleo,2018,100.0
+192,Fabricación de productos de la refinación del petróleo,2019,109.73900212118417
+192,Fabricación de productos de la refinación del petróleo,2020,95.87752467029422
+192,Fabricación de productos de la refinación del petróleo,2021,110.44075356535008
+192,Fabricación de productos de la refinación del petróleo,2022,148.1517191652763
+192,Fabricación de productos de la refinación del petróleo,2023,158.433174314388
+192,Fabricación de productos de la refinación del petróleo,2024,172.24015493867012
+192,Fabricación de productos de la refinación del petróleo,2025,172.05318890276928
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2007,76.74838896686049
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2008,79.3404736134434
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2009,77.55993216663792
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2010,78.10121000795381
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2011,81.26431477761687
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2012,81.26357601986295
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2013,81.15863448490532
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2014,84.19560589151955
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2015,94.2599166310704
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2016,99.11623042818637
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2017,98.21257604100691
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2018,100.00000000000001
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2019,102.82438025658779
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2020,106.21584598842263
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2021,118.46415577911654
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2022,140.71747359738404
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2023,138.11698163232242
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2024,133.3888144231194
+201,"Fabricación de sustancias químicas básicas, abonos y compuestos inorgánicos nitrogenados, plásticos y caucho",2025,132.01676216287873
+202,Fabricación de otros productos químicos,2007,74.64028498448747
+202,Fabricación de otros productos químicos,2008,76.64865799216615
+202,Fabricación de otros productos químicos,2009,80.3119965822662
+202,Fabricación de otros productos químicos,2010,80.06492976965386
+202,Fabricación de otros productos químicos,2011,81.02517913413688
+202,Fabricación de otros productos químicos,2012,83.22203610195282
+202,Fabricación de otros productos químicos,2013,85.25779022546227
+202,Fabricación de otros productos químicos,2014,86.82233444862858
+202,Fabricación de otros productos químicos,2015,92.8644037832582
+202,Fabricación de otros productos químicos,2016,98.56875570877162
+202,Fabricación de otros productos químicos,2017,99.2722236954536
+202,Fabricación de otros productos químicos,2018,100.0
+202,Fabricación de otros productos químicos,2019,103.76115972774683
+202,Fabricación de otros productos químicos,2020,109.36017560918118
+202,Fabricación de otros productos químicos,2021,115.67002563422612
+202,Fabricación de otros productos químicos,2022,129.60974100592242
+202,Fabricación de otros productos químicos,2023,137.71030378031173
+202,Fabricación de otros productos químicos,2024,137.6381154424114
+202,Fabricación de otros productos químicos,2025,140.78714752939098
+203,Fabricación de fibras sintéticas y artificiales,2007,81.20443564446526
+203,Fabricación de fibras sintéticas y artificiales,2008,78.27725159076711
+203,Fabricación de fibras sintéticas y artificiales,2009,79.49464599080876
+203,Fabricación de fibras sintéticas y artificiales,2010,77.4155598969411
+203,Fabricación de fibras sintéticas y artificiales,2011,80.05803074417791
+203,Fabricación de fibras sintéticas y artificiales,2012,79.54600009701399
+203,Fabricación de fibras sintéticas y artificiales,2013,80.70826435362943
+203,Fabricación de fibras sintéticas y artificiales,2014,82.30930413532191
+203,Fabricación de fibras sintéticas y artificiales,2015,100.809083188056
+203,Fabricación de fibras sintéticas y artificiales,2016,101.80888948489861
+203,Fabricación de fibras sintéticas y artificiales,2017,96.06186580841269
+203,Fabricación de fibras sintéticas y artificiales,2018,100.00000000000001
+203,Fabricación de fibras sintéticas y artificiales,2019,113.18298988273511
+203,Fabricación de fibras sintéticas y artificiales,2020,122.54555749258715
+203,Fabricación de fibras sintéticas y artificiales,2021,129.7013991328059
+203,Fabricación de fibras sintéticas y artificiales,2022,152.86010161965643
+203,Fabricación de fibras sintéticas y artificiales,2023,147.80742926109698
+203,Fabricación de fibras sintéticas y artificiales,2024,135.7106670838735
+203,Fabricación de fibras sintéticas y artificiales,2025,138.40165094691048
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2007,80.4854727326804
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2008,79.80040105435658
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2009,79.3846417557313
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2010,78.35213171766227
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2011,77.64386600531496
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2012,77.45926804540953
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2013,79.41445497121472
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2014,83.24899928541083
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2015,89.38848140271689
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2016,94.22912778669907
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2017,97.16664496621964
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2018,100.0
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2019,100.155519870376
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2020,104.12019154261246
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2021,107.91415303155246
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2022,115.50279935766677
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2023,123.45456649740318
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2024,128.09918550988817
+210,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",2025,132.82988296225568
+221,Fabricación de productos de caucho,2007,65.4634837914768
+221,Fabricación de productos de caucho,2008,66.23967359186472
+221,Fabricación de productos de caucho,2009,70.5743757386765
+221,Fabricación de productos de caucho,2010,69.63188750736603
+221,Fabricación de productos de caucho,2011,72.3736084553119
+221,Fabricación de productos de caucho,2012,75.48979942841426
+221,Fabricación de productos de caucho,2013,76.15742154586304
+221,Fabricación de productos de caucho,2014,77.53281216226453
+221,Fabricación de productos de caucho,2015,86.65484625600851
+221,Fabricación de productos de caucho,2016,93.97833224342854
+221,Fabricación de productos de caucho,2017,96.01027431892186
+221,Fabricación de productos de caucho,2018,99.99999999999999
+221,Fabricación de productos de caucho,2019,105.30570143800014
+221,Fabricación de productos de caucho,2020,110.91612677053347
+221,Fabricación de productos de caucho,2021,117.78320108406199
+221,Fabricación de productos de caucho,2022,135.37763515381138
+221,Fabricación de productos de caucho,2023,146.46769724467575
+221,Fabricación de productos de caucho,2024,142.73348120082787
+221,Fabricación de productos de caucho,2025,148.04053097464453
+222,Fabricación de productos de plástico,2007,77.25002403871379
+222,Fabricación de productos de plástico,2008,78.62542664617943
+222,Fabricación de productos de plástico,2009,80.74253426738994
+222,Fabricación de productos de plástico,2010,79.76792868943319
+222,Fabricación de productos de plástico,2011,81.93588734266342
+222,Fabricación de productos de plástico,2012,83.37881891334722
+222,Fabricación de productos de plástico,2013,83.83525686852133
+222,Fabricación de productos de plástico,2014,85.25356238768624
+222,Fabricación de productos de plástico,2015,91.75569074925772
+222,Fabricación de productos de plástico,2016,97.19392210514059
+222,Fabricación de productos de plástico,2017,98.52928334400652
+222,Fabricación de productos de plástico,2018,100.0
+222,Fabricación de productos de plástico,2019,103.26526750887815
+222,Fabricación de productos de plástico,2020,107.40379577341794
+222,Fabricación de productos de plástico,2021,117.4128194678931
+222,Fabricación de productos de plástico,2022,132.4874832625022
+222,Fabricación de productos de plástico,2023,138.37689934214356
+222,Fabricación de productos de plástico,2024,137.82092332770566
+222,Fabricación de productos de plástico,2025,141.02360714909472
+231,Fabricación de vidrio y productos de vidrio,2007,77.90922182305651
+231,Fabricación de vidrio y productos de vidrio,2008,75.85209994653009
+231,Fabricación de vidrio y productos de vidrio,2009,77.27802957422449
+231,Fabricación de vidrio y productos de vidrio,2010,75.1309250357938
+231,Fabricación de vidrio y productos de vidrio,2011,74.84324324080063
+231,Fabricación de vidrio y productos de vidrio,2012,74.34801019645168
+231,Fabricación de vidrio y productos de vidrio,2013,74.56607036982548
+231,Fabricación de vidrio y productos de vidrio,2014,75.46458337336578
+231,Fabricación de vidrio y productos de vidrio,2015,85.90439873661506
+231,Fabricación de vidrio y productos de vidrio,2016,94.3584212823871
+231,Fabricación de vidrio y productos de vidrio,2017,95.52615360912104
+231,Fabricación de vidrio y productos de vidrio,2018,100.00000000000001
+231,Fabricación de vidrio y productos de vidrio,2019,106.66679505944587
+231,Fabricación de vidrio y productos de vidrio,2020,111.71134735382485
+231,Fabricación de vidrio y productos de vidrio,2021,118.45132629740907
+231,Fabricación de vidrio y productos de vidrio,2022,134.75977711013536
+231,Fabricación de vidrio y productos de vidrio,2023,137.0323293018001
+231,Fabricación de vidrio y productos de vidrio,2024,134.73088873481757
+231,Fabricación de vidrio y productos de vidrio,2025,140.67162262794344
+239,Fabricación de productos minerales no metálicos n.c.p.,2007,75.25406748786502
+239,Fabricación de productos minerales no metálicos n.c.p.,2008,77.82815155519047
+239,Fabricación de productos minerales no metálicos n.c.p.,2009,81.73905976982368
+239,Fabricación de productos minerales no metálicos n.c.p.,2010,82.17473253509901
+239,Fabricación de productos minerales no metálicos n.c.p.,2011,86.47438515310017
+239,Fabricación de productos minerales no metálicos n.c.p.,2012,94.76865603670446
+239,Fabricación de productos minerales no metálicos n.c.p.,2013,98.77151847399402
+239,Fabricación de productos minerales no metálicos n.c.p.,2014,99.46022389333756
+239,Fabricación de productos minerales no metálicos n.c.p.,2015,102.65037100269224
+239,Fabricación de productos minerales no metálicos n.c.p.,2016,106.44904458598727
+239,Fabricación de productos minerales no metálicos n.c.p.,2017,98.6867161336923
+239,Fabricación de productos minerales no metálicos n.c.p.,2018,100.0
+239,Fabricación de productos minerales no metálicos n.c.p.,2019,101.9863418477904
+239,Fabricación de productos minerales no metálicos n.c.p.,2020,107.97327467332065
+239,Fabricación de productos minerales no metálicos n.c.p.,2021,109.31692822903672
+239,Fabricación de productos minerales no metálicos n.c.p.,2022,120.56274213671287
+239,Fabricación de productos minerales no metálicos n.c.p.,2023,137.76511918051088
+239,Fabricación de productos minerales no metálicos n.c.p.,2024,143.14137500820803
+239,Fabricación de productos minerales no metálicos n.c.p.,2025,145.47327467332067
+241,Industrias básicas de hierro y de acero,2007,82.64137760002258
+241,Industrias básicas de hierro y de acero,2008,83.17737666863073
+241,Industrias básicas de hierro y de acero,2009,78.47730275648556
+241,Industrias básicas de hierro y de acero,2010,81.83554589496056
+241,Industrias básicas de hierro y de acero,2011,86.24525642657382
+241,Industrias básicas de hierro y de acero,2012,81.29588062205279
+241,Industrias básicas de hierro y de acero,2013,75.44608504153891
+241,Industrias básicas de hierro y de acero,2014,78.68407667898553
+241,Industrias básicas de hierro y de acero,2015,86.96579902129064
+241,Industrias básicas de hierro y de acero,2016,90.17453874787127
+241,Industrias básicas de hierro y de acero,2017,94.04293128167848
+241,Industrias básicas de hierro y de acero,2018,99.99999999999999
+241,Industrias básicas de hierro y de acero,2019,106.64701170547175
+241,Industrias básicas de hierro y de acero,2020,109.37043543816428
+241,Industrias básicas de hierro y de acero,2021,142.72732780032712
+241,Industrias básicas de hierro y de acero,2022,177.93730605870908
+241,Industrias básicas de hierro y de acero,2023,167.3128571717049
+241,Industrias básicas de hierro y de acero,2024,143.238222168373
+241,Industrias básicas de hierro y de acero,2025,141.84487389188425
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2007,67.5348883600787
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2008,66.86010987739115
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2009,64.49086154227369
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2010,68.1655462467527
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2011,73.98489542197582
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2012,71.5860038262472
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2013,70.53772623457782
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2014,73.06438665843798
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2015,84.82248482248481
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2016,90.3097903097903
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2017,93.25494325494326
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2018,100.0
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2019,103.60750360750359
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2020,110.86281086281086
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2021,131.3157313157313
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2022,157.4288574288574
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2023,160.03991003991004
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2024,156.1009061009061
+242,Industrias básicas de metales preciosos y de metales no ferrosos,2025,161.89566189566187
+243,Fundición de metales,2007,65.87992243328391
+243,Fundición de metales,2008,67.93028742446651
+243,Fundición de metales,2009,64.55040937710484
+243,Fundición de metales,2010,68.73182897993978
+243,Fundición de metales,2011,75.05167761729535
+243,Fundición de metales,2012,72.11170288824961
+243,Fundición de metales,2013,68.2457556314911
+243,Fundición de metales,2014,70.46114345063997
+243,Fundición de metales,2015,90.96196136161241
+243,Fundición de metales,2016,105.07424168075168
+243,Fundición de metales,2017,97.22237367403933
+243,Fundición de metales,2018,100.0
+243,Fundición de metales,2019,111.43461219247708
+243,Fundición de metales,2020,117.3769756889543
+243,Fundición de metales,2021,115.45414341881273
+243,Fundición de metales,2022,126.50770283941866
+243,Fundición de metales,2023,126.25992766661214
+243,Fundición de metales,2024,110.64282209257946
+243,Fundición de metales,2025,110.52287225342128
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2007,85.64628133844906
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2008,88.52277193544364
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2009,90.36998668441635
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2010,90.36782282489003
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2011,91.17710628773553
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2012,90.18100961911732
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2013,91.26726710133242
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2014,92.62617088386446
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2015,95.28448616065556
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2016,96.73535397305642
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2017,98.40365850827577
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2018,100.0
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2019,102.1774624128512
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2020,104.30230668637267
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2021,115.27241494045639
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2022,134.91523062994747
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2023,146.14378680368017
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2024,148.94105994598902
+251,"Fabricación de productos metálicos para uso estructural, tanques, depósitos y generadores de vapor",2025,150.56835328437782
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2007,72.73999154451212
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2008,74.75686181750282
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2009,77.54993042912088
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2010,77.11452986077852
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2011,78.57526074197553
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2012,78.21775647983212
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2013,78.27249725961396
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2014,79.32847943527418
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2015,87.80322720381201
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2016,94.60824128221789
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2017,97.06925492744206
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2018,100.00000000000001
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2019,103.82959714100066
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2020,109.61460363872645
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2021,120.18491444661036
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2022,137.9006930907516
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2023,142.3929228936539
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2024,138.87399826727312
+259,Fabricación de otros productos elaborados de metal y actividades de servicios relacionadas con el trabajo de,2025,141.20235001082955
+261,Fabricación de componentes y tableros electrónicos,2007,77.32606690152386
+261,Fabricación de componentes y tableros electrónicos,2008,73.038404652539
+261,Fabricación de componentes y tableros electrónicos,2009,75.5787827439833
+261,Fabricación de componentes y tableros electrónicos,2010,71.55024963995096
+261,Fabricación de componentes y tableros electrónicos,2011,69.91507187034424
+261,Fabricación de componentes y tableros electrónicos,2012,68.8415130908392
+261,Fabricación de componentes y tableros electrónicos,2013,69.49139596930395
+261,Fabricación de componentes y tableros electrónicos,2014,71.97909704101318
+261,Fabricación de componentes y tableros electrónicos,2015,91.18830947182666
+261,Fabricación de componentes y tableros electrónicos,2016,101.72215030495069
+261,Fabricación de componentes y tableros electrónicos,2017,98.12392526614757
+261,Fabricación de componentes y tableros electrónicos,2018,99.99999999999999
+261,Fabricación de componentes y tableros electrónicos,2019,111.66669886843003
+261,Fabricación de componentes y tableros electrónicos,2020,123.5697586799853
+261,Fabricación de componentes y tableros electrónicos,2021,121.09537518274499
+261,Fabricación de componentes y tableros electrónicos,2022,137.66189436533543
+261,Fabricación de componentes y tableros electrónicos,2023,140.24061157588986
+261,Fabricación de componentes y tableros electrónicos,2024,132.0240096347676
+261,Fabricación de componentes y tableros electrónicos,2025,131.54098318423914
+262,Fabricación de computadoras y de equipo periférico,2007,87.20290644637858
+262,Fabricación de computadoras y de equipo periférico,2008,78.07678971682647
+262,Fabricación de computadoras y de equipo periférico,2009,84.3910805587831
+262,Fabricación de computadoras y de equipo periférico,2010,80.04498140021254
+262,Fabricación de computadoras y de equipo periférico,2011,74.33316293564725
+262,Fabricación de computadoras y de equipo periférico,2012,70.96899867050075
+262,Fabricación de computadoras y de equipo periférico,2013,72.10133556344574
+262,Fabricación de computadoras y de equipo periférico,2014,76.44657034270871
+262,Fabricación de computadoras y de equipo periférico,2015,94.52267467589468
+262,Fabricación de computadoras y de equipo periférico,2016,101.11287643008973
+262,Fabricación de computadoras y de equipo periférico,2017,99.02931638627113
+262,Fabricación de computadoras y de equipo periférico,2018,100.0
+262,Fabricación de computadoras y de equipo periférico,2019,103.72965953526163
+262,Fabricación de computadoras y de equipo periférico,2020,106.74400214740172
+262,Fabricación de computadoras y de equipo periférico,2021,108.17391052009198
+262,Fabricación de computadoras y de equipo periférico,2022,111.07507925798564
+262,Fabricación de computadoras y de equipo periférico,2023,109.54940837631763
+262,Fabricación de computadoras y de equipo periférico,2024,108.50182456598543
+262,Fabricación de computadoras y de equipo periférico,2025,107.0487010396036
+263,Fabricación de equipos de comunicación,2007,115.56831124201322
+263,Fabricación de equipos de comunicación,2008,103.41730789754695
+263,Fabricación de equipos de comunicación,2009,103.76590208547505
+263,Fabricación de equipos de comunicación,2010,94.05456077651162
+263,Fabricación de equipos de comunicación,2011,89.45408716865352
+263,Fabricación de equipos de comunicación,2012,83.67304388936618
+263,Fabricación de equipos de comunicación,2013,83.20273105228789
+263,Fabricación de equipos de comunicación,2014,85.80996045222906
+263,Fabricación de equipos de comunicación,2015,102.06133890632593
+263,Fabricación de equipos de comunicación,2016,110.44010703847373
+263,Fabricación de equipos de comunicación,2017,101.14750179297157
+263,Fabricación de equipos de comunicación,2018,100.00000000000001
+263,Fabricación de equipos de comunicación,2019,101.44286011737216
+263,Fabricación de equipos de comunicación,2020,105.67041712615581
+263,Fabricación de equipos de comunicación,2021,105.48379385068597
+263,Fabricación de equipos de comunicación,2022,115.66016055771057
+263,Fabricación de equipos de comunicación,2023,130.148913035096
+263,Fabricación de equipos de comunicación,2024,127.87395988370749
+263,Fabricación de equipos de comunicación,2025,126.80126163503583
+264,Fabricación de aparatos electrónicos de consumo,2007,123.4824896645136
+264,Fabricación de aparatos electrónicos de consumo,2008,110.48737080797827
+264,Fabricación de aparatos electrónicos de consumo,2009,109.59152297823978
+264,Fabricación de aparatos electrónicos de consumo,2010,100.6385117213005
+264,Fabricación de aparatos electrónicos de consumo,2011,96.81647122750748
+264,Fabricación de aparatos electrónicos de consumo,2012,93.76469756752844
+264,Fabricación de aparatos electrónicos de consumo,2013,93.54728129132623
+264,Fabricación de aparatos electrónicos de consumo,2014,96.81498494402159
+264,Fabricación de aparatos electrónicos de consumo,2015,100.91086202970422
+264,Fabricación de aparatos electrónicos de consumo,2016,101.68087780111159
+264,Fabricación de aparatos electrónicos de consumo,2017,98.95419544737662
+264,Fabricación de aparatos electrónicos de consumo,2018,100.0
+264,Fabricación de aparatos electrónicos de consumo,2019,100.56760198702864
+264,Fabricación de aparatos electrónicos de consumo,2020,100.5271192301529
+264,Fabricación de aparatos electrónicos de consumo,2021,100.83073990672098
+264,Fabricación de aparatos electrónicos de consumo,2022,107.02713188101443
+264,Fabricación de aparatos electrónicos de consumo,2023,107.87305282156382
+264,Fabricación de aparatos electrónicos de consumo,2024,106.60290632458737
+264,Fabricación de aparatos electrónicos de consumo,2025,107.27340198534186
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2007,76.2554418341659
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2008,73.33713739522557
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2009,80.57773538205923
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2010,74.79926453963533
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2011,73.7678774390208
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2012,72.06558045391961
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2013,72.69805049732962
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2014,75.05594440580869
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2015,91.0218752933918
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2016,100.67865717083113
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2017,98.61988492334928
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2018,99.99999999999999
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2019,109.15248326828414
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2020,120.59979345216537
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2021,125.9519306857656
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2022,135.93999383038934
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2023,143.5909816387022
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2024,144.39973712093774
+265,"Fabricación de equipo de medición, prueba, navegación y control; fabricación de relojes",2025,146.384071674781
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2007,81.04820733285975
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2008,81.32612785756702
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2009,87.6554021228744
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2010,81.83589260946432
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2011,81.50458208922117
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2012,80.67447736410865
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2013,82.22205586484706
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2014,85.10511562378419
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2015,96.77131469282489
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2016,105.18979587206269
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2017,99.14007608473692
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2018,100.0
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2019,103.90331339197252
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2020,109.25874104718615
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2021,109.18840426256041
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2022,116.0420810612535
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2023,117.04040961723176
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2024,118.0856293629605
+266,Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico,2025,118.39874150097187
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2007,70.78682189232852
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2008,71.62568610936354
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2009,74.18656043570157
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2010,71.2485663164762
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2011,71.32736473594707
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2012,71.30452228269235
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2013,73.21828361858975
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2014,75.67617868105047
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2015,90.36991252704138
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2016,99.12997326095427
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2017,99.00837106808378
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2018,100.0
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2019,105.45866197277724
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2020,114.97991212394017
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2021,119.03309460784972
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2022,131.54804294371363
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2023,138.71786947583408
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2024,137.5569380433468
+271,"Fabricación de motores, generadores y transformadores eléctricos y de aparatos de distribución y control de la",2025,139.24861937841794
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2007,64.68496616795309
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2008,73.40414367816956
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2009,84.38352618182766
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2010,82.23543345148472
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2011,83.18457804781563
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2012,82.2659105715504
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2013,82.3791113032229
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2014,82.36496121176383
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2015,84.89063824800614
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2016,88.28419579648306
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2017,90.09505821367765
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2018,100.0
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2019,100.38740185704735
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2020,103.0275248330105
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2021,100.77480371409469
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2022,107.01735036430942
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2023,118.09966291902475
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2024,121.37120956234621
+272,"Fabricación de pilas, baterías y acumuladores eléctricos",2025,124.52488126339881
+273,Fabricación de hilos y cables aislados y sus dispositivos,2007,59.66749448987725
+273,Fabricación de hilos y cables aislados y sus dispositivos,2008,56.83360264871434
+273,Fabricación de hilos y cables aislados y sus dispositivos,2009,58.65316632351127
+273,Fabricación de hilos y cables aislados y sus dispositivos,2010,56.67957562920975
+273,Fabricación de hilos y cables aislados y sus dispositivos,2011,57.1706302584716
+273,Fabricación de hilos y cables aislados y sus dispositivos,2012,56.95412282555714
+273,Fabricación de hilos y cables aislados y sus dispositivos,2013,57.23458696954429
+273,Fabricación de hilos y cables aislados y sus dispositivos,2014,58.66344333614136
+273,Fabricación de hilos y cables aislados y sus dispositivos,2015,72.02024544272832
+273,Fabricación de hilos y cables aislados y sus dispositivos,2016,80.627117429709
+273,Fabricación de hilos y cables aislados y sus dispositivos,2017,88.65978853850011
+273,Fabricación de hilos y cables aislados y sus dispositivos,2018,100.0
+273,Fabricación de hilos y cables aislados y sus dispositivos,2019,107.90114737822539
+273,Fabricación de hilos y cables aislados y sus dispositivos,2020,113.49525593392083
+273,Fabricación de hilos y cables aislados y sus dispositivos,2021,122.18759275749481
+273,Fabricación de hilos y cables aislados y sus dispositivos,2022,133.0032445931976
+273,Fabricación de hilos y cables aislados y sus dispositivos,2023,142.4959826409146
+273,Fabricación de hilos y cables aislados y sus dispositivos,2024,144.0763144696574
+273,Fabricación de hilos y cables aislados y sus dispositivos,2025,159.00041964770062
+274,Fabricación de equipos eléctricos de iluminación,2007,85.52504016671617
+274,Fabricación de equipos eléctricos de iluminación,2008,83.42868358797011
+274,Fabricación de equipos eléctricos de iluminación,2009,88.19685302800399
+274,Fabricación de equipos eléctricos de iluminación,2010,86.05334813918863
+274,Fabricación de equipos eléctricos de iluminación,2011,85.09788449866672
+274,Fabricación de equipos eléctricos de iluminación,2012,83.44605315341465
+274,Fabricación de equipos eléctricos de iluminación,2013,84.69148048537504
+274,Fabricación de equipos eléctricos de iluminación,2014,86.70275957580718
+274,Fabricación de equipos eléctricos de iluminación,2015,93.08194146606662
+274,Fabricación de equipos eléctricos de iluminación,2016,96.61874414811683
+274,Fabricación de equipos eléctricos de iluminación,2017,98.80697091425293
+274,Fabricación de equipos eléctricos de iluminación,2018,100.0
+274,Fabricación de equipos eléctricos de iluminación,2019,104.23751849950166
+274,Fabricación de equipos eléctricos de iluminación,2020,109.1863239602525
+274,Fabricación de equipos eléctricos de iluminación,2021,113.06140324383098
+274,Fabricación de equipos eléctricos de iluminación,2022,122.87142468815127
+274,Fabricación de equipos eléctricos de iluminación,2023,126.08958289286902
+274,Fabricación de equipos eléctricos de iluminación,2024,121.89585913195809
+274,Fabricación de equipos eléctricos de iluminación,2025,123.76468633906188
+275,Fabricación de aparatos de uso doméstico,2007,86.12698085123789
+275,Fabricación de aparatos de uso doméstico,2008,85.7545613789473
+275,Fabricación de aparatos de uso doméstico,2009,89.07683805750013
+275,Fabricación de aparatos de uso doméstico,2010,88.74792897900188
+275,Fabricación de aparatos de uso doméstico,2011,88.78627712268327
+275,Fabricación de aparatos de uso doméstico,2012,88.59011161846685
+275,Fabricación de aparatos de uso doméstico,2013,87.53111288141871
+275,Fabricación de aparatos de uso doméstico,2014,85.81429598737411
+275,Fabricación de aparatos de uso doméstico,2015,93.70352758084039
+275,Fabricación de aparatos de uso doméstico,2016,101.58366476453973
+275,Fabricación de aparatos de uso doméstico,2017,101.41578765346704
+275,Fabricación de aparatos de uso doméstico,2018,100.0
+275,Fabricación de aparatos de uso doméstico,2019,100.13905700616749
+275,Fabricación de aparatos de uso doméstico,2020,102.66730070897457
+275,Fabricación de aparatos de uso doméstico,2021,104.19836878206236
+275,Fabricación de aparatos de uso doméstico,2022,107.74972620900338
+275,Fabricación de aparatos de uso doméstico,2023,114.98861605856244
+275,Fabricación de aparatos de uso doméstico,2024,114.602426652833
+275,Fabricación de aparatos de uso doméstico,2025,118.61346475301168
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2007,71.86176236565122
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2008,70.1955215432693
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2009,74.63568740893247
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2010,71.75817101361041
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2011,71.31248917079277
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2012,70.87090413480784
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2013,71.6495524363062
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2014,73.70489094962421
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2015,88.45030188924237
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2016,97.2726092319678
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2017,97.60241511393885
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2018,100.00000000000001
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2019,109.28520418100372
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2020,111.53995974810103
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2021,111.59514380315524
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2022,117.77510874504968
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2023,115.53333766149451
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2024,109.84353697331689
+279,Fabricación de otros tipos de equipo eléctrico n.c.p.,2025,108.5385963773291
+281,Fabricación de maquinaria y equipo de uso general,2007,75.18070589984897
+281,Fabricación de maquinaria y equipo de uso general,2008,73.48990317005224
+281,Fabricación de maquinaria y equipo de uso general,2009,78.3841246703318
+281,Fabricación de maquinaria y equipo de uso general,2010,75.54724369925363
+281,Fabricación de maquinaria y equipo de uso general,2011,75.0556448656095
+281,Fabricación de maquinaria y equipo de uso general,2012,74.89118833966172
+281,Fabricación de maquinaria y equipo de uso general,2013,75.59940301435212
+281,Fabricación de maquinaria y equipo de uso general,2014,76.91050590044354
+281,Fabricación de maquinaria y equipo de uso general,2015,89.13727372097365
+281,Fabricación de maquinaria y equipo de uso general,2016,99.45679703537819
+281,Fabricación de maquinaria y equipo de uso general,2017,99.33082726812233
+281,Fabricación de maquinaria y equipo de uso general,2018,100.00000000000001
+281,Fabricación de maquinaria y equipo de uso general,2019,104.67087898904265
+281,Fabricación de maquinaria y equipo de uso general,2020,110.50881121864087
+281,Fabricación de maquinaria y equipo de uso general,2021,114.44253379188996
+281,Fabricación de maquinaria y equipo de uso general,2022,122.81519102082167
+281,Fabricación de maquinaria y equipo de uso general,2023,128.9383881201845
+281,Fabricación de maquinaria y equipo de uso general,2024,127.38276147058042
+281,Fabricación de maquinaria y equipo de uso general,2025,129.97747207336906
+282,Fabricación de maquinaria y equipo de uso especial,2007,70.84827306003808
+282,Fabricación de maquinaria y equipo de uso especial,2008,70.97204271392367
+282,Fabricación de maquinaria y equipo de uso especial,2009,76.61750950560268
+282,Fabricación de maquinaria y equipo de uso especial,2010,73.68070378856623
+282,Fabricación de maquinaria y equipo de uso especial,2011,73.8108321983335
+282,Fabricación de maquinaria y equipo de uso especial,2012,74.03635532031052
+282,Fabricación de maquinaria y equipo de uso especial,2013,75.20360968379248
+282,Fabricación de maquinaria y equipo de uso especial,2014,77.65342001290831
+282,Fabricación de maquinaria y equipo de uso especial,2015,91.30981601314483
+282,Fabricación de maquinaria y equipo de uso especial,2016,100.24545104164554
+282,Fabricación de maquinaria y equipo de uso especial,2017,100.1156256973041
+282,Fabricación de maquinaria y equipo de uso especial,2018,100.0
+282,Fabricación de maquinaria y equipo de uso especial,2019,107.70432277826238
+282,Fabricación de maquinaria y equipo de uso especial,2020,118.15052978206923
+282,Fabricación de maquinaria y equipo de uso especial,2021,120.85928149785991
+282,Fabricación de maquinaria y equipo de uso especial,2022,132.64498853885632
+282,Fabricación de maquinaria y equipo de uso especial,2023,142.84371598001232
+282,Fabricación de maquinaria y equipo de uso especial,2024,143.16760316719748
+282,Fabricación de maquinaria y equipo de uso especial,2025,147.09752452819984
+291,Fabricación de vehículos automotores y sus motores,2007,85.97205099702016
+291,Fabricación de vehículos automotores y sus motores,2008,83.1503572812386
+291,Fabricación de vehículos automotores y sus motores,2009,86.16401315254502
+291,Fabricación de vehículos automotores y sus motores,2010,83.56877479210921
+291,Fabricación de vehículos automotores y sus motores,2011,83.66175646119156
+291,Fabricación de vehículos automotores y sus motores,2012,83.37306337573425
+291,Fabricación de vehículos automotores y sus motores,2013,83.34231943676347
+291,Fabricación de vehículos automotores y sus motores,2014,85.66161219863228
+291,Fabricación de vehículos automotores y sus motores,2015,93.04208069747985
+291,Fabricación de vehículos automotores y sus motores,2016,98.9219298116863
+291,Fabricación de vehículos automotores y sus motores,2017,100.05357326327221
+291,Fabricación de vehículos automotores y sus motores,2018,100.0
+291,Fabricación de vehículos automotores y sus motores,2019,101.8097488661549
+291,Fabricación de vehículos automotores y sus motores,2020,104.89424784606126
+291,Fabricación de vehículos automotores y sus motores,2021,108.03745725147142
+291,Fabricación de vehículos automotores y sus motores,2022,118.55689774111636
+291,Fabricación de vehículos automotores y sus motores,2023,128.7431565660272
+291,Fabricación de vehículos automotores y sus motores,2024,127.35318724222452
+291,Fabricación de vehículos automotores y sus motores,2025,127.81259632179183
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2007,69.30690813492795
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2008,69.45123941029075
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2009,74.53497504628379
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2010,75.39974983060038
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2011,75.32333915540832
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2012,76.12747054671534
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2013,77.42160055353976
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2014,78.79214123555627
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2015,91.72821966508884
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2016,100.92851323417523
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2017,99.74077041685466
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2018,100.0
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2019,104.96576149531705
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2020,115.19152689591091
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2021,116.77653063285686
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2022,132.69659365594512
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2023,141.2424166930385
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2024,137.9323579118889
+292,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques,2025,139.85873671027562
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2007,76.43972053966176
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2008,73.95353380420352
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2009,77.22021627853046
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2010,73.94639870472632
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2011,73.57639782825488
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2012,72.66241736345401
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2013,73.50732940868401
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2014,75.84681088500444
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2015,88.74343966507853
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2016,97.12521251789182
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2017,97.67355907829396
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2018,100.0
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2019,103.97416857624773
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2020,112.2396865823091
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2021,121.19399775554227
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2022,136.98315312712097
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2023,145.0228813730168
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2024,143.16549179832137
+293,"Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores",2025,146.08731881379737
+301,Construcción de barcos y otras embarcaciones,2007,80.60812030370977
+301,Construcción de barcos y otras embarcaciones,2008,79.17387551593323
+301,Construcción de barcos y otras embarcaciones,2009,81.54915277053549
+301,Construcción de barcos y otras embarcaciones,2010,77.90548970188694
+301,Construcción de barcos y otras embarcaciones,2011,76.9762194014523
+301,Construcción de barcos y otras embarcaciones,2012,76.73164755680057
+301,Construcción de barcos y otras embarcaciones,2013,77.39103048732899
+301,Construcción de barcos y otras embarcaciones,2014,78.03382301456968
+301,Construcción de barcos y otras embarcaciones,2015,93.66489829086369
+301,Construcción de barcos y otras embarcaciones,2016,104.74752746708246
+301,Construcción de barcos y otras embarcaciones,2017,100.84432787405113
+301,Construcción de barcos y otras embarcaciones,2018,100.0
+301,Construcción de barcos y otras embarcaciones,2019,111.07404055152186
+301,Construcción de barcos y otras embarcaciones,2020,124.96250734988077
+301,Construcción de barcos y otras embarcaciones,2021,126.65578774205058
+301,Construcción de barcos y otras embarcaciones,2022,143.9836683998071
+301,Construcción de barcos y otras embarcaciones,2023,146.43803307281175
+301,Construcción de barcos y otras embarcaciones,2024,137.85006903932933
+301,Construcción de barcos y otras embarcaciones,2025,137.19535157204865
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2007,75.79607441978006
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2008,74.74711865624137
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2009,78.48289600083434
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2010,75.13500033293073
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2011,74.6859080926442
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2012,72.80320002073998
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2013,73.27806512990952
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2014,75.43074400336332
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2015,94.01713976063206
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2016,104.74788763488698
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2017,100.84494604521097
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2018,100.0
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2019,111.07595148417482
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2020,124.96370679101132
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2021,126.65627487840938
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2022,143.98402429805256
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2023,146.43858252440174
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2024,137.84930123028963
+302,Fabricación de locomotoras y de material rodante para ferrocarriles,2025,137.1963579681155
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2007,69.11099378051875
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2008,69.48369271901211
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2009,75.44687573490599
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2010,72.41097131632435
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2011,72.13253961353031
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2012,72.1487710580878
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2013,73.26437072825136
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2014,75.62292447972195
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2015,93.66201370125452
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2016,104.74721383602095
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2017,100.84493271587404
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2018,100.0
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2019,111.07330897848362
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2020,124.9615188970292
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2021,126.65534804753821
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2022,143.98208399120054
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2023,146.43694714381033
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2024,137.84822920864355
+303,"Fabricación de aeronaves, naves espaciales y de maquinaria conexa",2025,137.19487623288168
+304,Fabricación de vehículos militares de combate,2007,69.11555969119577
+304,Fabricación de vehículos militares de combate,2008,69.48828325254534
+304,Fabricación de vehículos militares de combate,2009,75.45186023413862
+304,Fabricación de vehículos militares de combate,2010,72.41575524445186
+304,Fabricación de vehículos militares de combate,2011,72.13730514669321
+304,Fabricación de vehículos militares de combate,2012,72.1535376636029
+304,Fabricación de vehículos militares de combate,2013,73.26921103735783
+304,Fabricación de vehículos militares de combate,2014,75.62792060985149
+304,Fabricación de vehículos militares de combate,2015,93.66489829086369
+304,Fabricación de vehículos militares de combate,2016,104.74752746708246
+304,Fabricación de vehículos militares de combate,2017,100.84432787405113
+304,Fabricación de vehículos militares de combate,2018,100.0
+304,Fabricación de vehículos militares de combate,2019,111.07404055152186
+304,Fabricación de vehículos militares de combate,2020,124.96250734988077
+304,Fabricación de vehículos militares de combate,2021,126.65578774205058
+304,Fabricación de vehículos militares de combate,2022,143.9836683998071
+304,Fabricación de vehículos militares de combate,2023,146.43803307281175
+304,Fabricación de vehículos militares de combate,2024,137.85006903932933
+304,Fabricación de vehículos militares de combate,2025,137.19535157204865
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2007,85.77631277223003
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2008,83.89838737281093
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2009,85.55829703332633
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2010,81.50129481624198
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2011,80.7275512226029
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2012,80.66205630117152
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2013,81.44177963333223
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2014,82.18442109432382
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2015,88.77723451112928
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2016,100.71540368713381
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2017,100.77773314680665
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2018,100.0
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2019,101.92251755613114
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2020,109.12780309431139
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2021,117.38576395141074
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2022,135.09217834536062
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2023,150.51387176752496
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2024,150.75695666024905
+309,Fabricación de otros tipos de equipo de transporte n.c.p.,2025,152.69332520741858
+311,Fabricación de muebles,2007,82.03503620068372
+311,Fabricación de muebles,2008,83.98833715208416
+311,Fabricación de muebles,2009,86.65321867906596
+311,Fabricación de muebles,2010,85.47808585478835
+311,Fabricación de muebles,2011,86.35323160418706
+311,Fabricación de muebles,2012,87.82712092929893
+311,Fabricación de muebles,2013,88.87380857906821
+311,Fabricación de muebles,2014,89.8824059285631
+311,Fabricación de muebles,2015,93.37201969851661
+311,Fabricación de muebles,2016,97.3004624346886
+311,Fabricación de muebles,2017,98.40475046543752
+311,Fabricación de muebles,2018,100.0
+311,Fabricación de muebles,2019,102.44429763978138
+311,Fabricación de muebles,2020,106.58669149000059
+311,Fabricación de muebles,2021,111.36643444838147
+311,Fabricación de muebles,2022,121.68638520208997
+311,Fabricación de muebles,2023,127.86919704522249
+311,Fabricación de muebles,2024,133.494985286169
+311,Fabricación de muebles,2025,136.5743799171221
+312,Fabricación de colchones y somieres,2007,72.75378305009409
+312,Fabricación de colchones y somieres,2008,76.3264150155731
+312,Fabricación de colchones y somieres,2009,79.6606331028086
+312,Fabricación de colchones y somieres,2010,80.1905079472048
+312,Fabricación de colchones y somieres,2011,82.27543731244431
+312,Fabricación de colchones y somieres,2012,84.6381188458375
+312,Fabricación de colchones y somieres,2013,85.84449306974966
+312,Fabricación de colchones y somieres,2014,87.26961202695024
+312,Fabricación de colchones y somieres,2015,91.0980546333508
+312,Fabricación de colchones y somieres,2016,94.39032558681345
+312,Fabricación de colchones y somieres,2017,97.18679014502884
+312,Fabricación de colchones y somieres,2018,100.0
+312,Fabricación de colchones y somieres,2019,100.82197565379464
+312,Fabricación de colchones y somieres,2020,103.68032500436834
+312,Fabricación de colchones y somieres,2021,112.09811287786128
+312,Fabricación de colchones y somieres,2022,122.7284640922593
+312,Fabricación de colchones y somieres,2023,128.02725843089289
+312,Fabricación de colchones y somieres,2024,130.41018696487856
+312,Fabricación de colchones y somieres,2025,133.98275962490536
+321,"Fabricación de joyas, bisutería y artículos conexos",2007,85.58550947995802
+321,"Fabricación de joyas, bisutería y artículos conexos",2008,81.78625397674425
+321,"Fabricación de joyas, bisutería y artículos conexos",2009,94.73895985960537
+321,"Fabricación de joyas, bisutería y artículos conexos",2010,89.66136156136231
+321,"Fabricación de joyas, bisutería y artículos conexos",2011,90.1908141799576
+321,"Fabricación de joyas, bisutería y artículos conexos",2012,92.01991906291211
+321,"Fabricación de joyas, bisutería y artículos conexos",2013,92.84645289588707
+321,"Fabricación de joyas, bisutería y artículos conexos",2014,95.99948181872138
+321,"Fabricación de joyas, bisutería y artículos conexos",2015,96.98533088848141
+321,"Fabricación de joyas, bisutería y artículos conexos",2016,97.2637106184364
+321,"Fabricación de joyas, bisutería y artículos conexos",2017,98.70145024170695
+321,"Fabricación de joyas, bisutería y artículos conexos",2018,100.0
+321,"Fabricación de joyas, bisutería y artículos conexos",2019,100.78763127187864
+321,"Fabricación de joyas, bisutería y artículos conexos",2020,98.45224204034007
+321,"Fabricación de joyas, bisutería y artículos conexos",2021,101.2352058676446
+321,"Fabricación de joyas, bisutería y artículos conexos",2022,111.61193532255375
+321,"Fabricación de joyas, bisutería y artículos conexos",2023,121.73445574262377
+321,"Fabricación de joyas, bisutería y artículos conexos",2024,127.9429904984164
+321,"Fabricación de joyas, bisutería y artículos conexos",2025,125.9668278046341
+323,Fabricación de artículos y equipo para la práctica del deporte,2007,78.01100925646506
+323,Fabricación de artículos y equipo para la práctica del deporte,2008,76.46180562325546
+323,Fabricación de artículos y equipo para la práctica del deporte,2009,79.13501244441953
+323,Fabricación de artículos y equipo para la práctica del deporte,2010,77.16949755273146
+323,Fabricación de artículos y equipo para la práctica del deporte,2011,78.06952012133527
+323,Fabricación de artículos y equipo para la práctica del deporte,2012,79.56600782200165
+323,Fabricación de artículos y equipo para la práctica del deporte,2013,80.59522172902798
+323,Fabricación de artículos y equipo para la práctica del deporte,2014,82.03666734919977
+323,Fabricación de artículos y equipo para la práctica del deporte,2015,94.36991361830958
+323,Fabricación de artículos y equipo para la práctica del deporte,2016,100.0
+323,Fabricación de artículos y equipo para la práctica del deporte,2017,100.0
+323,Fabricación de artículos y equipo para la práctica del deporte,2018,100.0
+323,Fabricación de artículos y equipo para la práctica del deporte,2019,100.08749270894093
+323,Fabricación de artículos y equipo para la práctica del deporte,2020,101.2617004138544
+323,Fabricación de artículos y equipo para la práctica del deporte,2021,104.20034441574313
+323,Fabricación de artículos y equipo para la práctica del deporte,2022,104.39963336388634
+323,Fabricación de artículos y equipo para la práctica del deporte,2023,107.52298419576147
+323,Fabricación de artículos y equipo para la práctica del deporte,2024,111.06921645418437
+323,Fabricación de artículos y equipo para la práctica del deporte,2025,111.12060106102268
+324,"Fabricación de juegos, juguetes y rompecabezas",2007,85.29398553699605
+324,"Fabricación de juegos, juguetes y rompecabezas",2008,83.68725687336271
+324,"Fabricación de juegos, juguetes y rompecabezas",2009,86.30980899762295
+324,"Fabricación de juegos, juguetes y rompecabezas",2010,82.69157794223979
+324,"Fabricación de juegos, juguetes y rompecabezas",2011,82.8339182830343
+324,"Fabricación de juegos, juguetes y rompecabezas",2012,83.18619796429124
+324,"Fabricación de juegos, juguetes y rompecabezas",2013,84.19240166418648
+324,"Fabricación de juegos, juguetes y rompecabezas",2014,85.6556286266865
+324,"Fabricación de juegos, juguetes y rompecabezas",2015,94.6086160419104
+324,"Fabricación de juegos, juguetes y rompecabezas",2016,99.89536936792926
+324,"Fabricación de juegos, juguetes y rompecabezas",2017,102.2648172233646
+324,"Fabricación de juegos, juguetes y rompecabezas",2018,100.0
+324,"Fabricación de juegos, juguetes y rompecabezas",2019,101.93711989653194
+324,"Fabricación de juegos, juguetes y rompecabezas",2020,105.13344038597079
+324,"Fabricación de juegos, juguetes y rompecabezas",2021,107.58644742674039
+324,"Fabricación de juegos, juguetes y rompecabezas",2022,115.79195942656601
+324,"Fabricación de juegos, juguetes y rompecabezas",2023,120.42259149730795
+324,"Fabricación de juegos, juguetes y rompecabezas",2024,122.2776054117288
+324,"Fabricación de juegos, juguetes y rompecabezas",2025,125.0924600550764
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2007,77.41772919314401
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2008,76.15640147213672
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2009,80.21144851155539
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2010,77.16602859607863
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2011,77.8454537876844
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2012,77.87248837140633
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2013,79.0689725605874
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2014,80.96736521441393
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2015,91.03317933641328
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2016,98.08133837323254
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2017,98.55872882542349
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2018,100.0
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2019,102.87694246115079
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2020,105.8119837603248
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2021,110.36049279014419
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2022,116.99286014279714
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2023,121.65826683466331
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2024,122.97564048719026
+325,"Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)",2025,124.58420831583368
+329,Otras industrias manufactureras n.c.p.,2007,77.16993773189269
+329,Otras industrias manufactureras n.c.p.,2008,76.06443780359213
+329,Otras industrias manufactureras n.c.p.,2009,78.24178413034353
+329,Otras industrias manufactureras n.c.p.,2010,77.76933617196879
+329,Otras industrias manufactureras n.c.p.,2011,80.18550441088165
+329,Otras industrias manufactureras n.c.p.,2012,82.0434238760361
+329,Otras industrias manufactureras n.c.p.,2013,83.13456498492121
+329,Otras industrias manufactureras n.c.p.,2014,84.56173172768143
+329,Otras industrias manufactureras n.c.p.,2015,91.31602506714414
+329,Otras industrias manufactureras n.c.p.,2016,96.82473214543565
+329,Otras industrias manufactureras n.c.p.,2017,98.70260201576804
+329,Otras industrias manufactureras n.c.p.,2018,100.0
+329,Otras industrias manufactureras n.c.p.,2019,101.99194270367055
+329,Otras industrias manufactureras n.c.p.,2020,105.05746960464377
+329,Otras industrias manufactureras n.c.p.,2021,108.3590839518295
+329,Otras industrias manufactureras n.c.p.,2022,119.79019262425275
+329,Otras industrias manufactureras n.c.p.,2023,126.81505761400064
+329,Otras industrias manufactureras n.c.p.,2024,128.78100903918906
+329,Otras industrias manufactureras n.c.p.,2025,131.13538568169346

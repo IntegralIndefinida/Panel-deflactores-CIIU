@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+*.ipynb
+.pytest_cache/
+
+# datos descargables (ver scripts/download_sources.py)
+data/raw/
+data/crosswalks/
+data/processed/
+
+# documentos internos
+guia.md
+resume.md
