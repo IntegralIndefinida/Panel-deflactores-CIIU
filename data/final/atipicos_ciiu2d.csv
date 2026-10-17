@@ -13,122 +13,118 @@ fecha,ciiu_codigo,ciiu_descripcion,ipp,growth,g_zscore,base_origen,mayor_15pct
 2024-05-01,05,Extracción de carbón de piedra y lignito,127.81555506504422,-0.19640075208165453,-5.2741048528851175,base_2014,True
 2026-03-01,06,Extracción de petróleo crudo y gas natural,189.7068371681744,0.4313868204467832,5.338952246606779,base_2014,True
 2007-01-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",70.3478376212282,0.026399999999999535,3.9230908552173185,base_2006_retropolada,False
-2007-04-01,22,Fabricación de productos de caucho y de plástico,77.36357546909282,-0.016189414626481935,-3.069848128328258,base_2006_retropolada,False
-2007-04-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",83.1836329331096,-0.021529316126131404,-3.2313173311035213,base_2006_retropolada,False
-2007-05-01,14,Confección de prendas de vestir,86.30460060876545,-0.014524265998594688,-3.406789093430108,base_2006_retropolada,False
-2007-05-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",90.94384852646864,-0.01695326584960155,-3.697200295034315,base_2006_retropolada,False
-2007-05-01,22,Fabricación de productos de caucho y de plástico,75.6446598287527,-0.02221866853900578,-4.058333533917254,base_2006_retropolada,False
-2007-05-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",78.80147152588872,-0.01881127953534234,-3.1669784904860667,base_2006_retropolada,False
-2007-05-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",88.80848656733914,-0.05182456005661651,-3.2529103105118313,base_2006_retropolada,False
-2007-05-01,28,Fabricación de maquinaria y equipo n.c.p.,74.5006168857368,-0.044517621860954426,-3.3129340057497667,base_2006_retropolada,False
-2007-05-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",81.0171247808076,-0.02604488498409485,-3.858344594376879,base_2006_retropolada,False
-2007-05-01,32,Otras industrias manufactureras,78.3741701323109,-0.027385459323786332,-4.866248197163973,base_2006_retropolada,False
-2007-06-01,24,Fabricación de productos metalúrgicos básicos,70.66734945779845,-0.06414956871673316,-4.08889006920984,base_2006_retropolada,False
-2007-06-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",77.2196616883586,-0.020073354049111147,-3.3545838987288987,base_2006_retropolada,False
-2007-06-01,27,Fabricación de aparatos y equipo eléctrico,69.11538625185507,-0.030341958007193748,-3.2303935466537324,base_2006_retropolada,False
-2007-06-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",78.49610523806993,-0.03111711936900141,-4.562669862153523,base_2006_retropolada,False
-2007-06-01,32,Otras industrias manufactureras,77.05758796630809,-0.01679867440739924,-3.11096110641359,base_2006_retropolada,False
-2007-10-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",88.06088260407972,-0.020352056714372013,-4.377980437334343,base_2006_retropolada,False
+2007-04-01,22,Fabricación de productos de caucho y de plástico,77.54027880405175,-0.019622559981407384,-3.4919895103707765,base_2006_retropolada,False
+2007-04-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",84.24954037045957,-0.02500230901857292,-3.709268929757282,base_2006_retropolada,False
+2007-05-01,14,Confección de prendas de vestir,86.76556111800255,-0.0138455781461585,-3.2677028352405966,base_2006_retropolada,False
+2007-05-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",92.97307285486254,-0.017684446848073465,-3.6547027293867065,base_2006_retropolada,False
+2007-05-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",73.37835482008747,-0.02706014500153231,-3.5603284607410637,base_2006_retropolada,False
+2007-05-01,22,Fabricación de productos de caucho y de plástico,75.55837654673516,-0.02555964832580704,-4.428783045293256,base_2006_retropolada,False
+2007-05-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",80.9123988419953,-0.06508200124558872,-3.4458518357766628,base_2006_retropolada,False
+2007-05-01,28,Fabricación de maquinaria y equipo n.c.p.,72.97940086700291,-0.056067986319826235,-3.9399958091728027,base_2006_retropolada,False
+2007-05-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",81.82042920398125,-0.02883233731361745,-4.241890003358068,base_2006_retropolada,False
+2007-06-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",71.63785228132386,-0.023719563392107346,-3.155310355880307,base_2006_retropolada,False
+2007-06-01,24,Fabricación de productos metalúrgicos básicos,74.13154447611745,-0.07652855993563934,-4.6688879983442355,base_2006_retropolada,False
+2007-06-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",77.6999872215521,-0.017399131507871424,-3.013217029457333,base_2006_retropolada,False
+2007-06-01,27,Fabricación de aparatos y equipo eléctrico,69.29314250942105,-0.031067466554879464,-3.3011878671463477,base_2006_retropolada,False
+2007-06-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",79.22737292624845,-0.031692039542694395,-4.639573141469667,base_2006_retropolada,False
+2007-10-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",89.314057816367,-0.023950933187897094,-4.854404543081399,base_2006_retropolada,False
 2008-01-01,02,Silvicultura y extracción de madera,59.90719553409954,-0.06102305655464435,-3.1177803758536933,base_2006_retropolada,False
 2008-01-01,05,Extracción de carbón de piedra y lignito,97.91143014143779,0.123787313432836,3.2324212351012904,base_2006_retropolada,False
-2008-02-01,10,Elaboración de productos alimenticios,72.21966542907037,0.028481676200572403,3.3464006703254543,base_2006_retropolada,False
+2008-02-01,10,Elaboración de productos alimenticios,72.12570605275357,0.02951367543432415,3.4552100879040024,base_2006_retropolada,False
 2008-02-01,11,Elaboración de bebidas,72.92937383704421,0.029514710055813298,3.676433093675863,base_2006_retropolada,False
 2008-02-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",73.65824346408219,0.0225499524262609,3.276008375759982,base_2006_retropolada,False
 2008-03-01,03,Pesca y acuicultura,66.07302327876677,-0.10004700173432868,-6.095072362167744,base_2006_retropolada,False
 2008-05-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",75.93371911589895,0.025263742365352115,3.73211856372015,base_2006_retropolada,False
 2008-07-01,05,Extracción de carbón de piedra y lignito,121.10718191562752,0.13384568558819043,3.499644827600638,base_2006_retropolada,False
 2008-09-01,02,Silvicultura y extracción de madera,66.37504900513545,0.0743264940993984,3.456912613641973,base_2006_retropolada,False
-2008-09-01,20,Fabricación de sustancias y productos químicos,80.35714493659609,0.036757286380112886,3.0393402043471816,base_2006_retropolada,False
-2008-09-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",77.18444464581555,0.04283413507422562,4.248702302350402,base_2006_retropolada,False
-2008-10-01,32,Otras industrias manufactureras,81.46973089138437,0.02151238872601824,3.241006472234421,base_2006_retropolada,False
+2008-09-01,20,Fabricación de sustancias y productos químicos,80.99763358593742,0.03851568785197079,3.1330374889460355,base_2006_retropolada,False
+2008-09-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",79.53172441509692,0.03851568785197079,4.390203108988613,base_2006_retropolada,False
+2008-10-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",81.74200861255338,0.02779122688099167,3.0899502291115666,base_2006_retropolada,False
+2008-10-01,31,"Fabricación de muebles, colchones y somieres",79.20997566514366,0.024960380348653555,3.971548805871316,base_2006_retropolada,False
+2008-10-01,32,Otras industrias manufactureras,78.08742403144255,0.02490354308840992,4.304504724881512,base_2006_retropolada,False
 2008-12-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",79.10704811225798,0.03228691530274608,4.912512330536254,base_2006_retropolada,False
-2008-12-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",74.77929290724956,-0.03717567032223723,-4.289164641640418,base_2006_retropolada,False
-2009-01-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",72.22596837123398,-0.03414480716182389,-3.9657404530571942,base_2006_retropolada,False
-2009-02-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",95.49621180308408,0.052725353312677026,3.2383155610917678,base_2006_retropolada,False
-2009-02-01,27,Fabricación de aparatos y equipo eléctrico,78.66231230487793,0.0395364693167346,3.649858920787054,base_2006_retropolada,False
-2009-02-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",84.43587080170212,0.02656108125885681,3.446465958339451,base_2006_retropolada,False
-2009-02-01,32,Otras industrias manufactureras,84.72060077496997,0.02812678918331235,4.337672913220731,base_2006_retropolada,False
-2009-05-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",69.37200451214827,-0.04133465164582251,-4.732970610013436,base_2006_retropolada,False
+2009-02-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",94.82722196855788,0.09309792042901943,4.804621216555162,base_2006_retropolada,False
+2009-02-01,27,Fabricación de aparatos y equipo eléctrico,78.89915243322723,0.03963234713740893,3.6594100181157243,base_2006_retropolada,False
+2009-02-01,28,Fabricación de maquinaria y equipo n.c.p.,81.8894902130841,0.05404290429042935,3.5233274810422253,base_2006_retropolada,False
+2009-02-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",83.9000654933577,0.02384291393469562,3.083368900960675,base_2006_retropolada,False
 2009-06-01,01,"Agricultura, ganadería, caza y actividades de servicios conexas",70.00624917976876,-0.06296118062239309,-3.044009173868905,base_2006_retropolada,False
+2009-09-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",90.30468171700439,-0.01515457921071206,-3.1703664317613605,base_2006_retropolada,False
+2009-09-01,30,Fabricación de otros tipos de equipo de transporte,86.30238808482943,-0.027577816080300965,-3.014701427345497,base_2006_retropolada,False
 2010-01-01,02,Silvicultura y extracción de madera,71.50845323387736,0.09722230632547912,4.569091674482659,base_2006_retropolada,False
 2011-02-01,02,Silvicultura y extracción de madera,89.38526038908088,0.1330219685378653,6.3080836920897605,base_2006_retropolada,False
 2014-03-01,01,"Agricultura, ganadería, caza y actividades de servicios conexas",79.92924401343274,0.07676783984501112,3.0506121992982496,base_2006_retropolada,False
 2014-12-01,07,Extracción de minerales metalíferos,72.48215127024969,0.10973357953046703,3.270380915715782,base_2014,False
-2014-12-01,29,"Fabricación de vehículos automotores, remolques y semirremolques",85.82401785139572,0.023454623125023666,3.0151063659161066,base_2014,False
-2015-03-01,28,Fabricación de maquinaria y equipo n.c.p.,85.83176565439396,0.04649562567580845,3.163365930666458,base_2014,False
-2015-03-01,31,"Fabricación de muebles, colchones y somieres",91.41884390496634,0.022856007154924196,3.7787769462535388,base_2014,False
+2014-12-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",89.45077225833383,0.0917517827939025,4.734408308585031,base_2014,False
+2015-03-01,28,Fabricación de maquinaria y equipo n.c.p.,85.83176565439396,0.04649562567580845,3.0117724482015804,base_2014,False
+2015-03-01,31,"Fabricación de muebles, colchones y somieres",91.41884390496634,0.022856007154924196,3.59779570894437,base_2014,False
 2015-04-01,08,Extracción de otras minas y canteras,85.44280509361136,-0.07938432835820908,-3.2127746873932264,base_2014,False
-2015-07-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,63.47196196336178,-0.04763823144324697,-3.137539268830701,base_2014,False
-2015-08-01,13,Fabricación de productos textiles,93.9381774387796,0.022471910112359383,3.1125712734268003,base_2014,False
-2015-08-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,72.54034400783107,0.14287225042301155,8.714511222845493,base_2014,False
-2015-08-01,20,Fabricación de sustancias y productos químicos,96.26060820367752,0.03645535884256623,3.012855181103943,base_2014,False
-2015-08-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",102.91311348321305,0.06606745737583375,4.0666912936519335,base_2014,False
-2015-08-01,27,Fabricación de aparatos y equipo eléctrico,90.19400559895068,0.03560510699514463,3.2627757200141474,base_2014,False
-2015-08-01,28,Fabricación de maquinaria y equipo n.c.p.,95.58720773985488,0.06561207981305062,4.5236502196488635,base_2014,False
-2015-08-01,30,Fabricación de otros tipos de equipo de transporte,93.88994359420727,0.045229811389855046,4.423662186445316,base_2014,False
-2015-08-01,32,Otras industrias manufactureras,95.12371307031691,0.023843181603995678,3.6274515244611854,base_2014,False
+2015-07-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,63.47196196336178,-0.04763823144324697,-3.1002549955620533,base_2014,False
+2015-08-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,72.54034400783107,0.14287225042301155,8.612594916002802,base_2014,False
+2015-08-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",102.91311348321305,0.06606745737583375,3.3947450157619814,base_2014,False
+2015-08-01,27,Fabricación de aparatos y equipo eléctrico,90.19400559895068,0.03560510699514463,3.262916763696512,base_2014,False
+2015-08-01,28,Fabricación de maquinaria y equipo n.c.p.,95.58720773985488,0.06561207981305062,4.307486946541299,base_2014,False
+2015-08-01,30,Fabricación de otros tipos de equipo de transporte,93.88994359420727,0.045229811389855046,4.388742862005841,base_2014,False
+2015-08-01,32,Otras industrias manufactureras,95.12371307031691,0.023843181603995678,4.102664128879762,base_2014,False
 2015-09-01,07,Extracción de minerales metalíferos,88.74714601529371,0.1442990654205607,4.339382493623397,base_2014,False
-2015-09-01,17,"Fabricación de papel, cartón y productos de papel y cartón",93.24050632911391,0.0326168224299066,3.340533348780431,base_2014,False
-2015-09-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,79.72255628583416,0.09900990099009932,5.9857438864247605,base_2014,False
-2015-10-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,90.84491679485387,0.1395133451208217,8.505546787669374,base_2014,False
-2015-12-01,28,Fabricación de maquinaria y equipo n.c.p.,101.87583982800321,0.0468063954933311,3.1854796185518293,base_2014,False
-2016-01-01,30,Fabricación de otros tipos de equipo de transporte,99.99246095115383,0.03287741058533711,3.151196327698146,base_2014,False
-2016-03-01,14,Confección de prendas de vestir,96.84897959183674,0.016151135473766676,3.147396616994899,base_2014,False
+2015-09-01,17,"Fabricación de papel, cartón y productos de papel y cartón",93.24050632911391,0.0326168224299066,3.2108443741632513,base_2014,False
+2015-09-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,79.72255628583416,0.09900990099009932,5.915876548364763,base_2014,False
+2015-10-01,18,Actividades de impresión y de producción de copias a partir de grabaciones originales,90.84491679485387,0.1395133451208217,8.406084737212073,base_2014,False
+2015-12-01,28,Fabricación de maquinaria y equipo n.c.p.,101.87583982800321,0.0468063954933311,3.0328364465414195,base_2014,False
+2016-01-01,30,Fabricación de otros tipos de equipo de transporte,99.99246095115383,0.03287741058533711,3.1326888691261408,base_2014,False
+2016-03-01,14,Confección de prendas de vestir,96.84897959183674,0.016151135473766676,3.1590899005431434,base_2014,False
 2016-08-01,01,"Agricultura, ganadería, caza y actividades de servicios conexas",100.14273802625813,-0.07343480307547479,-3.500841713333575,base_2014,False
-2016-08-01,14,Confección de prendas de vestir,97.9125364431487,0.017253077444993714,3.3828403919701397,base_2014,False
+2016-08-01,14,Confección de prendas de vestir,97.9125364431487,0.017253077444993714,3.3951808518943274,base_2014,False
 2016-10-01,23,Fabricación de otros productos minerales no metálicos,102.53754531330917,-0.02430010163540608,-3.3967215937417827,base_2014,False
-2017-01-01,14,Confección de prendas de vestir,96.61574344023323,-0.014183722037125146,-3.334027588807382,base_2014,False
+2017-01-01,14,Confección de prendas de vestir,96.61574344023323,-0.014183722037125146,-3.340150128289078,base_2014,False
 2017-02-01,11,Elaboración de bebidas,97.23736003084963,0.02475156422524849,3.0200907992154216,base_2014,False
 2019-01-01,12,Elaboración de productos de tabaco,112.12065477285267,0.08220083743480489,4.743226383636843,base_2014,False
-2019-07-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",114.468720132799,0.09246279404704727,3.2896472543956543,base_2014,False
+2019-07-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",114.468720132799,0.09246279404704727,3.256085939704545,base_2014,False
 2020-01-01,12,Elaboración de productos de tabaco,122.27331248850469,0.06964047936085227,3.9677146861894967,base_2014,False
 2020-03-01,08,Extracción de otras minas y canteras,125.49330832221062,0.12008345568348666,4.6546289802398295,base_2014,False
-2020-03-01,17,"Fabricación de papel, cartón y productos de papel y cartón",109.12236286919833,0.030604925480194556,3.116153548264865,base_2014,False
-2020-03-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",102.38602256912424,-0.08800071691011735,-3.4395853348618757,base_2014,False
-2020-03-01,20,Fabricación de sustancias y productos químicos,109.40594059405942,0.0502376103190767,4.221831525777826,base_2014,False
-2020-03-01,26,"Fabricación de productos informáticos, electrónicos y ópticos",110.68638559246227,0.05060281881473938,3.106533043035368,base_2014,False
-2020-03-01,27,Fabricación de aparatos y equipo eléctrico,110.54599557565435,0.03786207910601358,3.4849979211917304,base_2014,False
-2020-03-01,28,Fabricación de maquinaria y equipo n.c.p.,114.9529696318194,0.051397389573040186,3.5121645294984183,base_2014,False
-2020-03-01,30,Fabricación de otros tipos de equipo de transporte,113.14330361120439,0.04687618902670998,4.593261551512592,base_2014,False
-2020-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",89.57896678348062,-0.12508597818610578,-4.822442996423979,base_2014,False
+2020-03-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",102.38602256912424,-0.08800071691011735,-3.457009249525846,base_2014,False
+2020-03-01,20,Fabricación de sustancias y productos químicos,109.40594059405942,0.0502376103190767,4.13758742908213,base_2014,False
+2020-03-01,27,Fabricación de aparatos y equipo eléctrico,110.54599557565435,0.03786207910601358,3.485122091851761,base_2014,False
+2020-03-01,28,Fabricación de maquinaria y equipo n.c.p.,114.9529696318194,0.051397389573040186,3.3440143223213186,base_2014,False
+2020-03-01,30,Fabricación de otros tipos de equipo de transporte,113.14330361120439,0.04687618902670998,4.556154787613301,base_2014,False
+2020-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",89.57896678348062,-0.12508597818610578,-4.836550674508336,base_2014,False
 2021-01-01,12,Elaboración de productos de tabaco,139.5191313668161,0.1265286056658268,7.480146985938936,base_2014,False
-2021-02-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",111.00652178686714,0.02331983805667992,3.095746435299101,base_2014,False
-2021-04-01,24,Fabricación de productos metalúrgicos básicos,130.20694059188602,0.053406522441072024,3.1006621438766344,base_2014,False
-2021-07-01,22,Fabricación de productos de caucho y de plástico,119.23637068019258,0.020934689665339956,3.0165824351290533,base_2014,False
-2021-08-01,31,"Fabricación de muebles, colchones y somieres",113.76508030493673,0.02332827354797473,3.8657860126921277,base_2014,False
-2021-10-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",108.94590417310665,0.01837725381414712,3.379527035714564,base_2014,False
+2021-02-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",111.00652178686714,0.02331983805667992,3.148365929541726,base_2014,False
+2021-04-01,24,Fabricación de productos metalúrgicos básicos,130.20694059188602,0.053406522441072024,3.0135864995777406,base_2014,False
+2021-08-01,31,"Fabricación de muebles, colchones y somieres",113.76508030493673,0.02332827354797473,3.6816739048381053,base_2014,False
+2021-10-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",108.94590417310665,0.01837725381414712,3.249212055273746,base_2014,False
 2022-01-01,01,"Agricultura, ganadería, caza y actividades de servicios conexas",182.2072103901977,0.09739032735815334,3.950112193966782,base_2014,False
-2022-01-01,17,"Fabricación de papel, cartón y productos de papel y cartón",121.1054852320675,0.03684704862365429,3.812315618555571,base_2014,False
+2022-01-01,17,"Fabricación de papel, cartón y productos de papel y cartón",121.1054852320675,0.03684704862365429,3.6634794817714385,base_2014,False
 2022-01-01,23,Fabricación de otros productos minerales no metálicos,114.6750388399793,0.03623760638764595,4.239701492883567,base_2014,False
-2022-01-01,31,"Fabricación de muebles, colchones y somieres",117.69077048330989,0.025619195046439502,4.28785911337999,base_2014,False
+2022-01-01,31,"Fabricación de muebles, colchones y somieres",117.69077048330989,0.025619195046439502,4.08855943608283,base_2014,False
 2022-02-01,08,Extracción de otras minas y canteras,142.56628548753653,0.10941184396685277,4.233719520788216,base_2014,False
-2022-02-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",114.54714064914992,0.023702967014752385,4.446271044043551,base_2014,False
-2022-02-01,31,"Fabricación de muebles, colchones y somieres",120.06217156391091,0.020149422685080687,3.2801232384656416,base_2014,False
-2022-03-01,14,Confección de prendas de vestir,108.25889212827988,0.017180925666199,3.3674242560807968,base_2014,False
+2022-02-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",114.54714064914992,0.023702967014752385,4.268805403045047,base_2014,False
+2022-02-01,31,"Fabricación de muebles, colchones y somieres",120.06217156391091,0.020149422685080687,3.117085191098604,base_2014,False
+2022-03-01,14,Confección de prendas de vestir,108.25889212827988,0.017180925666199,3.37972234088185,base_2014,False
 2022-04-01,03,Pesca y acuicultura,137.4988009769271,0.07541551246537392,4.241112180532085,base_2014,False
-2022-04-01,10,Elaboración de productos alimenticios,143.54546239530265,0.027504790160084225,3.213679404149831,base_2014,False
-2022-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",155.85774409363,0.09919114516815641,3.5405380821091974,base_2014,False
-2022-04-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",134.2477986224464,0.03179639505839482,4.35577341425422,base_2014,False
-2022-05-01,10,Elaboración de productos alimenticios,147.32751921250323,0.026347449470644824,3.056441286976813,base_2014,False
-2022-05-01,17,"Fabricación de papel, cartón y productos de papel y cartón",132.77637130801688,0.048304350722899514,5.090108280770785,base_2014,False
+2022-04-01,10,Elaboración de productos alimenticios,143.54546239530265,0.027504790160084225,3.184451478627695,base_2014,False
+2022-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",155.85774409363,0.09919114516815641,3.506375105104258,base_2014,False
+2022-04-01,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",134.2477986224464,0.03179639505839482,4.431036137832548,base_2014,False
+2022-05-01,10,Elaboración de productos alimenticios,147.32751921250323,0.026347449470644824,3.028464494428183,base_2014,False
+2022-05-01,17,"Fabricación de papel, cartón y productos de papel y cartón",132.77637130801688,0.048304350722899514,4.8894132571937305,base_2014,False
+2022-05-01,32,Otras industrias manufactureras,116.216590904116,0.019040307101727327,3.188433400672041,base_2014,False
 2022-07-01,08,Extracción de otras minas y canteras,158.52241982612463,0.12441660525669374,4.825536964245536,base_2014,False
-2022-07-01,13,Fabricación de productos textiles,131.32419567586166,0.024288781535158233,3.392757996828562,base_2014,False
-2022-07-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",119.629057187017,0.01815311760063132,3.3346323983558803,base_2014,False
-2022-07-01,17,"Fabricación de papel, cartón y productos de papel y cartón",138.51476793248943,0.04162964843254202,4.345702177552843,base_2014,False
-2022-07-01,20,Fabricación de sustancias y productos químicos,140.81506364922208,0.044593088071348985,3.7266951624544036,base_2014,False
-2022-07-01,22,Fabricación de productos de caucho y de plástico,134.64670306413083,0.02362720073303226,3.4580148135651734,base_2014,False
-2022-07-01,28,Fabricación de maquinaria y equipo n.c.p.,130.0053748992206,0.0517218888599007,3.535255175835513,base_2014,False
-2022-07-01,30,Fabricación de otros tipos de equipo de transporte,138.68011815745646,0.04163577958981968,4.053427862513409,base_2014,False
-2022-11-01,17,"Fabricación de papel, cartón y productos de papel y cartón",149.0126582278481,0.036267605633802935,3.7476923770463086,base_2014,False
+2022-07-01,13,Fabricación de productos textiles,131.32419567586166,0.024288781535158233,3.254826294930906,base_2014,False
+2022-07-01,15,"Curtido y recurtido de cueros; fabricación de calzado; fabricación de artículos de viaje, maletas, bolsos de mano",119.629057187017,0.01815311760063132,3.2063017851019713,base_2014,False
+2022-07-01,17,"Fabricación de papel, cartón y productos de papel y cartón",138.51476793248943,0.04162964843254202,4.175218684356479,base_2014,False
+2022-07-01,20,Fabricación de sustancias y productos químicos,140.81506364922208,0.044593088071348985,3.6538609326850184,base_2014,False
+2022-07-01,21,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso",116.67896358664989,0.028304773561811603,3.1522135496173105,base_2014,False
+2022-07-01,22,Fabricación de productos de caucho y de plástico,134.64670306413083,0.02362720073303226,3.3322471985960678,base_2014,False
+2022-07-01,28,Fabricación de maquinaria y equipo n.c.p.,130.0053748992206,0.0517218888599007,3.3660089049812343,base_2014,False
+2022-07-01,30,Fabricación de otros tipos de equipo de transporte,138.68011815745646,0.04163577958981968,4.023283704356105,base_2014,False
+2022-11-01,17,"Fabricación de papel, cartón y productos de papel y cartón",149.0126582278481,0.036267605633802935,3.601478957910132,base_2014,False
 2023-01-01,05,Extracción de carbón de piedra y lignito,168.72610240453426,-0.11535704685960035,-3.120994019004632,base_2014,False
 2023-01-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",125.28438583703314,0.027759657896644363,4.151610317931472,base_2014,False
 2023-01-01,23,Fabricación de otros productos minerales no metálicos,132.9977990678405,0.056867283950617464,6.84199601568784,base_2014,False
-2023-01-01,31,"Fabricación de muebles, colchones y somieres",127.70039227296279,0.01906584449642068,3.080487761548623,base_2014,False
 2023-02-01,23,Fabricación de otros productos minerales no metálicos,138.15380631796995,0.038767613345987995,4.55884478682276,base_2014,False
 2023-06-01,08,Extracción de otras minas y canteras,153.49229825763865,-0.0764702818148667,-3.097838931863136,base_2014,False
 2024-02-01,16,"Transformación de la madera y fabricación de productos de madera y de corcho, excepto muebles; fabricación de",132.53815740065824,0.023609689525759148,3.454119761861728,base_2014,False
 2024-11-01,11,Elaboración de bebidas,117.95606842208659,-0.04718245292333745,-6.8921267865016915,base_2014,False
 2024-12-01,11,Elaboración de bebidas,123.91062346752426,0.05048112509252389,6.565520566811816,base_2014,False
 2025-02-01,02,Silvicultura y extracción de madera,126.28729954665401,-0.06996212876220853,-3.552001657650851,base_2014,False
-2026-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",194.89260383306225,0.09174932371505862,3.2630429409584294,base_2014,False
+2026-04-01,19,"Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles",194.89260383306225,0.09174932371505862,3.2295454261795227,base_2014,False
 2026-05-01,12,Elaboración de productos de tabaco,189.37674807988685,0.06890330340650364,3.9221993774452475,base_2014,False

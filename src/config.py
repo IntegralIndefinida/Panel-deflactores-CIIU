@@ -36,6 +36,9 @@ class ProjectPaths:
 FILE_ANEXO_2006 = 'anex_ipp_dic14.xls'          # base Dic-2006=100, CIIU Rev 3.1 A.C.
 FILE_ANEXO_2014 = 'anex-IPP-sep2026.xlsx'       # base Dic-2014=100, CIIU Rev 4 A.C.
 FILE_CROSSWALK_31_4 = 'TC-CIIU-3-1ACvsCIIU-4AC-2020.xlsx'
+FILE_CROSSWALK_3_4 = 'TC-CIIU-3ACvsCIIU-4AC-2020.xlsx'
+FILE_PESOS_EAM = 'pesos_eam_rev3_rev4.csv'      # data/processed, de scripts/build_eam_weights.py
+WEIGHT_YEARS = (2007, 2011)                     # años de referencia de los pesos por valor
 FILE_BANREP_1999 = '1_IPP_base_1999_segun_actividad_economica_iqy.csv'   # exportación manual BanRep
 FILE_BANREP_OI_TOTAL = '1_IPP_2014_Total_iqy.csv'                        # exportación manual BanRep
 

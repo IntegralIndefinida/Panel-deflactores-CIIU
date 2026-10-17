@@ -8,7 +8,7 @@ import pandas as pd
 from src.config import (COL_DATE, COL_CIIU, COL_CIIU_DESC, COL_IPP, COL_BASE, COL_CIIU_REV,
                         FILE_ANEXO_2006, FILE_ANEXO_2014, FILE_CROSSWALK_31_4, FILE_BANREP_OI_TOTAL)
 from src.sources import load_dane_annex, load_banrep_csv_oi_total
-from src.division_link import load_weights, backcast_divisions
+from src.division_link import load_weights, value_weights, backcast_divisions
 
 logger = logging.getLogger(__name__)
 
@@ -23,35 +23,61 @@ def _wide(df: pd.DataFrame, level: str) -> pd.DataFrame:
     return d.pivot(index='fecha', columns='ciiu_codigo', values='ipp').sort_index()
 
 
-def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int = 2018):
-    """Devuelve (panel_largo, descripciones, info). Base `rebase_year` = 100 (promedio anual)."""
+def _fallback_groups(w: pd.DataFrame, old_cols, new_cols) -> set:
+    """Grupos Rev4 cuyo peso con dato en la base 2006 es menor que MIN_COVERAGE."""
+    cov = w[w['d31'].isin(old_cols)].groupby('d4')['w'].sum()
+    return {g for g in new_cols if cov.get(g, 0.0) < MIN_COVERAGE}
+
+
+def _resolve(w: pd.DataFrame, wdiv: pd.DataFrame, old_cols, fallback: set) -> pd.DataFrame:
+    """Restringe a orígenes con dato (renormalizando) y sustituye los grupos de `fallback` por su división."""
+    w = w[w['d31'].isin(old_cols)]
+    w = w.assign(w=w['w'] / w.groupby('d4')['w'].transform('sum'))
+    w = w[~w['d4'].isin(fallback)]
+    rows = [wdiv[(wdiv['d4'] == g[:2]) & wdiv['d31'].isin(old_cols)].assign(d4=g) for g in sorted(fallback)]
+    return pd.concat([w, *rows], ignore_index=True)
+
+
+def _with_value(val: pd.DataFrame, cnt: pd.DataFrame) -> pd.DataFrame:
+    """Pesos por valor para los destinos manufactureros (divisiones 10–33) con plantas en la EAM; conteo para el resto."""
+    val = val[val['d4'].str[:2].astype(int).between(10, 33)]
+    return pd.concat([val, cnt[~cnt['d4'].isin(val['d4'])]], ignore_index=True)
+
+
+def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int = 2018,
+                eam_links: pd.DataFrame | None = None):
+    """Devuelve (panel_largo, info). Base `rebase_year` = 100 (promedio anual).
+
+    eam_links (anio, c3, c4, valor; ver src/eam_weights.py): si se da, los orígenes se ponderan por valor
+    de producción, con pesos interpolados entre los años de referencia; si no, por conteo de vínculos."""
     if digits not in LEVEL:
         raise ValueError('digits debe ser 2 o 3')
     a06 = load_dane_annex(raw / FILE_ANEXO_2006)
     a14 = load_dane_annex(raw / FILE_ANEXO_2014)
     old, new = _wide(a06, LEVEL[digits]), _wide(a14, LEVEL[digits])
-    w = load_weights(crosswalks / CW_FILE, digits)
     info = {'n_old': old.shape[1], 'n_new': new.shape[1]}
 
-    fallback = []
+    cnt = load_weights(crosswalks / CW_FILE, digits)
+    cnt_div = load_weights(crosswalks / CW_FILE, 2)
+    if eam_links is None:
+        ws, wdivs = {None: cnt}, {None: cnt_div}
+    else:
+        ws = {y: _with_value(g.drop(columns='anio'), cnt) for y, g in value_weights(eam_links, digits).groupby('anio')}
+        wdivs = {y: _with_value(g.drop(columns='anio'), cnt_div) for y, g in value_weights(eam_links, 2).groupby('anio')}
+
+    fallback = set()
     if digits == 3:
         # respaldo: grupos Rev4 sin contraparte con dato se retropolan con la división padre
         old = pd.concat([old, _wide(a06, 'division')], axis=1)
-        wdiv = load_weights(crosswalks / CW_FILE, 2)
-        w = w[w['d31'].isin(old.columns)].copy()
-        w['cov'] = w.groupby('d4')['w'].transform('sum')   # peso total que cae en grupos con dato
-        w = w.assign(w=lambda x: x['w'] / x['cov'])
-        for g in new.columns:
-            cov = w.loc[w['d4'] == g, 'cov'].max() if (w['d4'] == g).any() else 0.0
-            if cov < MIN_COVERAGE:
-                rows = wdiv[wdiv['d4'] == g[:2]]
-                rows = rows[rows['d31'].isin(old.columns)]
-                if len(rows):
-                    w = pd.concat([w[w['d4'] != g], rows.assign(d4=g)[['d4', 'd31', 'n', 'w']]], ignore_index=True)
-                    fallback.append(g)
-    info['fallback_division'] = fallback
+        fallback = set().union(*(_fallback_groups(w, old.columns, new.columns) for w in ws.values()))
+        fallback = {g for g in fallback if any(((wd['d4'] == g[:2]) & wd['d31'].isin(old.columns)).any()
+                                               for wd in wdivs.values())}
+    w = pd.concat([_resolve(ws[y], wdivs[y], old.columns, fallback).assign(anio=y) for y in ws], ignore_index=True)
+    if eam_links is None:
+        w = w.drop(columns='anio')
+    info['fallback_division'] = sorted(fallback)
 
-    s = backcast_divisions(old, new, w[['d4', 'd31', 'w']], OVERLAP)
+    s = backcast_divisions(old, new, w, OVERLAP)
     s = s[[c for c in s.columns if c in new.columns]]
     info['solo_desde_2014'] = sorted(c for c in s.columns if s[c].first_valid_index() > pd.Timestamp('2006-12-01'))
     s = s / s.loc[str(rebase_year)].mean() * 100
