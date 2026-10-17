@@ -47,6 +47,17 @@ Columnas del panel: `fecha` (primer día del mes), `ciiu_codigo` (texto con cero
 | DANE – EAM, microdatos anonimizados (ANDA) 2007, 2011, 2012 | Pesos por valor (`PRODBR2`) y código Rev. 3/Rev. 4 por planta | proyecto `EAM/` |
 | Banco de la República – IPP por actividad económica (exportación manual) | Sectores amplios 1970–2014 y Total oficial empalmado | CSV `*_iqy.csv` |
 
+Referencias metodológicas:
+
+- Eurostat (2025). *Handbook on backcasting*, nueva edición, doi:10.2785/1776362. <https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/w/ks-01-25-030>
+- Eurostat (2009). *NACE Rev. 2 Handbook*, parte 4: Backcasting. <https://circabc.europa.eu/sd/a/be4014a9-0764-422c-a700-0b2a46e5929c/Handbook%20part%204%20-%20Back%20casting%20-%20EN.pdf>
+- UNSD (2018). *Handbook on Backcasting* (borrador). <https://unstats.un.org/unsd/nationalaccount/aeg/2018/M12_8iiib_Backcasting.pdf>
+- DANE. Metodología del IPP. <https://www.dane.gov.co/files/operaciones/IPP/met-IPP.pdf>
+- DANE. Instructivo de empalme de series del IPP. <https://www.dane.gov.co/files/investigaciones/boletines/ipp/Instructivo_empalme_seriesIPP.pdf>
+- DANE. EAM, documentación en ANDA (catálogo 694). <https://microdatos.dane.gov.co/index.php/catalog/694>
+- Klette, T. J. y Griliches, Z. (1996). The inconsistency of common scale estimators when output prices are unobserved and endogenous. *Journal of Applied Econometrics* 11(4).
+- De Loecker, J. (2011). Product differentiation, multiproduct firms, and estimating the impact of trade liberalization on productivity. *Econometrica* 79(5).
+
 Los datos son de los respectivos titulares (DANE, Banco de la República); este repositorio solo los transforma. Consultar sus condiciones de uso antes de redistribuir los archivos originales.
 
 ### URLs
@@ -57,7 +68,7 @@ Los datos son de los respectivos titulares (DANE, Banco de la República); este 
 
 1. **Sin cambio de clasificación (2014-12 → presente):** se usan directamente los índices de la base Dic-2014 (Rev. 4).
 2. **Retropolación (2006-12 → 2014-12):** la serie Rev. 4 se reconstruye hacia atrás con la tasa de crecimiento log mensual ponderada de los grupos de la base 2006 vinculados, anclada en 2014-12. El peso de cada origen en un destino Rev. 4 es:
-   - **Por valor (principal, `--weights value`).** Participación en la producción bruta (`PRODBR2`) de la EAM de las plantas que pasan de ese origen al destino. La EAM publica Rev. 3 hasta 2011 y Rev. 4 desde 2012, y `nordest` identifica al establecimiento entre años (9.289 plantas en ambos 2011 y 2012, 99,2 % del valor de 2011): el código Rev. 4 que el DANE asignó a cada planta en 2012 se cruza con su código Rev. 3 del año de referencia (doble codificación, enfoque preferido por Eurostat y la ONU; ver `retropolacion-deflactores-ciiu.md`). Solo se usan vínculos permitidos por la correlativa oficial Rev. 3 → Rev. 4; los demás son cambios de actividad o códigos que no reflejan la actividad de la planta (p. ej. plantas con código 3699, otras manufacturas, en 2011 que en 2012 aparecen en refinación, 1921, y suman cerca del 5 % del valor) y se descartan: 14,1 % del valor en 2007 y 12,5 % en 2011. Las plantas que no llegan a 2012 reparten su valor según las participaciones de su clase en el mismo año (7,8 % del valor en 2007, 0,8 % en 2011). Los pesos se calculan para 2007 y 2011 y se interpolan linealmente entre ambos (constantes antes de mediados de 2007 y después de mediados de 2011). Solo para destinos manufactureros (divisiones 10–33) con plantas en la EAM; el resto usa conteo. Los códigos de grupo de la EAM (Rev. 3) coinciden con los del anexo base 2006 (99,6 % del valor de 2011 cae en grupos con índice).
+   - **Por valor (principal, `--weights value`).** Participación en la producción bruta (`PRODBR2`) de la EAM de las plantas que pasan de ese origen al destino. La EAM publica Rev. 3 hasta 2011 y Rev. 4 desde 2012, y `nordest` identifica al establecimiento entre años (9.289 plantas en ambos 2011 y 2012, 99,2 % del valor de 2011): el código Rev. 4 que el DANE asignó a cada planta en 2012 se cruza con su código Rev. 3 del año de referencia (doble codificación; ver [Fundamento](#fundamento-de-la-ponderación-por-valor)). Solo se usan vínculos permitidos por la correlativa oficial Rev. 3 → Rev. 4; los demás son cambios de actividad o códigos que no reflejan la actividad de la planta (p. ej. plantas con código 3699, otras manufacturas, en 2011 que en 2012 aparecen en refinación, 1921, y suman cerca del 5 % del valor) y se descartan: 14,1 % del valor en 2007 y 12,5 % en 2011. Las plantas que no llegan a 2012 reparten su valor según las participaciones de su clase en el mismo año (7,8 % del valor en 2007, 0,8 % en 2011). Los pesos se calculan para 2007 y 2011 y se interpolan linealmente entre ambos (constantes antes de mediados de 2007 y después de mediados de 2011). Solo para destinos manufactureros (divisiones 10–33) con plantas en la EAM; el resto usa conteo. Los códigos de grupo de la EAM (Rev. 3) coinciden con los del anexo base 2006 (99,6 % del valor de 2011 cae en grupos con índice).
    - **Por conteo (contraste, `--weights count`).** Fracción de vínculos clase-clase de la correlativa Rev. 3.1 → Rev. 4, sin ponderaciones.
 
    Los grupos Rev. 4 con menos de 50 % del peso en orígenes con dato en algún año de referencia usan su división padre: 020, 030, 051, 191 y 301 por valor; 020, 030, 051, 243 y 301 por conteo.
@@ -67,6 +78,32 @@ Los datos son de los respectivos titulares (DANE, Banco de la República); este 
    **Grupos frágiles** (`FRAGILE_GROUPS` en `src/config.py`): 120, 261, 263, 264, 273, 301, 302 y 303 no tienen plantas con vínculo válido en la EAM pública. 120, 261, 263, 264, 302, 303 y 304 no aparecen en ningún año del archivo público 2012–2024, 301 solo desde 2020 y 273 desde 2022, aunque el IPP sí publica índices para todos ellos. La causa no está documentada en los metadatos de ANDA; una posibilidad, no verificada, es que el archivo anonimizado reclasifique esas plantas por confidencialidad. Además combinan varios orígenes o tienen un origen sin índice; siguen con pesos por conteo. 191 y 323 cambian más de 5 puntos según el año de los pesos. Para todos ellos `ipp_div_fragiles` usa la división padre.
 3. **Re-basado:** promedio del año `--rebase-year` = 100 por serie.
 4. **Sectores amplios:** empalme por razón en el mes de traslape (base 1999 → base 2006 en 2006-12; base 2006 → base 2014 en 2014-12).
+
+### Fundamento de la ponderación por valor
+
+- **No hay serie oficial que copiar.** El DANE no publicó el IPP por grupo CIIU Rev. 4 antes de diciembre de 2014. Su instructivo de empalme (2015) solo retropola el IPP de Oferta Interna total, y no se encontraron retropolaciones oficiales por grupo ni ponderaciones por clase de la base 2006.
+- **Orden de preferencia de los manuales.** Los manuales de retropolación de Eurostat (2009, 2025) y de la ONU (2018) prefieren, en este orden: la doble codificación de unidades, las matrices de conversión con coeficientes calculados sobre una variable de valor y los coeficientes por frecuencia de unidades. Contar líneas de la correlativa, como hace la variante por conteo, no figura en ninguno.
+- **Coherencia con el índice.** El IPP del DANE agrega cada nivel (clase, grupo, división) como promedio ponderado por valor de producción del nivel inferior. Eurostat (2025) indica que los coeficientes de conversión se aplican directamente solo a estadísticas aditivas y, en el caso de índices, a sus componentes aditivos. La variable relevante es entonces el valor de producción, no el empleo ni el número de establecimientos.
+- **Por qué sirve el código de 2012.** Según la documentación de la EAM en ANDA (catálogo 694), el DANE no pudo aplicar una correlativa directa y asignó la actividad Rev. 4 revisando, establecimiento por establecimiento, los productos y materias primas en la CPC (método descendente). El código Rev. 4 de cada planta resume esa reclasificación por productos, así que cruzarlo con su código Rev. 3 da coeficientes observados en lugar de un reparto supuesto. La doble codificación se usa solo para estimar los pesos; los precios siguen siendo los índices de los grupos de origen. Eurostat (2009) advierte que la recodificación por empresa no sirve para reconstruir índices de precios, cuya unidad de observación es el producto.
+- **Años de los pesos.** Eurostat recomienda coeficientes de varios años, interpolados, en lugar de uno solo. 2011 es el último año con código Rev. 3 y el más cercano al enlace; 2007 da la estructura del inicio del tramo. Se evita 2009: Eurostat desaconseja basar la retropolación de años normales en un año de crisis.
+
+### Supuestos y advertencias
+
+- **Estructura constante.** Los pesos suponen que la composición de cada destino cambia linealmente entre 2007 y 2011 y queda fija fuera de ese rango. La ONU califica la estructura constante como un supuesto fuerte, válido para periodos cortos.
+- **Microdatos públicos.** Los pesos salen del archivo anonimizado de ANDA:
+  - Se descarta el 12–14 % del valor por vínculos incompatibles con la correlativa, y varios grupos no aparecen (ver Grupos frágiles).
+  - Los establecimientos grandes aparecen en grupos (la mayoría de 3; el 95 % dentro de una misma clase) con todas las variables idénticas: 1.358 plantas en 2011 y 1.332 en 2012, que suman el 64 % y el 58 % del `PRODBR2` total. Las plantas del grupo pertenecen a empresas distintas y los grupos cambian de un año a otro (solo el 28 % de los grupos de 2011 se repite en 2012). El patrón es el de una microagregación, en la que cada valor se sustituye por el promedio del grupo, pero ANDA no lo documenta. Si esa es la técnica, los totales por clase se mantienen; el reparto del valor entre clases Rev. 4 dentro de una misma clase Rev. 3 queda alterado.
+- **Cobertura.** La EAM incluye establecimientos con 10 o más personas ocupadas o con producción o ingresos por encima de un umbral anual. Los pesos representan esa población, que es la misma que se va a deflactar.
+- **Versiones de la CIIU.** La EAM 2007–2011 está en Rev. 3 A.C. y el anexo base 2006 se publica como Rev. 3.1 A.C., pero sus códigos de grupo manufactureros coinciden (p. ej. panadería es el grupo 155 en ambos) y el 99,6 % del valor de 2011 cae en grupos con índice. La correlativa oficial Rev. 3.1 → Rev. 4 ubica panadería en el grupo 158, así que la variante por conteo hereda ese desajuste.
+- **Alcance.** Los pesos por valor se aplican solo a destinos de las divisiones 10–33 con plantas en la EAM. Agro, minería y los grupos sin plantas usan conteo.
+- **Fórmula.** La agregación principal es geométrica y el IPP del DANE es aritmético; la diferencia medida es pequeña (ver Validación).
+- **No hay un método prescrito.** El manual de Eurostat aclara que no es exhaustivo ni prescriptivo. Preferir el valor al conteo se apoya en la teoría de números índice y en la práctica de las agencias, no en una norma. La ONU señala que, sin datos apropiados, puede ser preferible documentar la ruptura antes que distorsionar la historia; por eso los grupos frágiles se marcan y se publican con alternativas.
+
+### Uso en la estimación
+
+- Entre variantes conviene comparar elasticidades en la media o la mediana, rendimientos a escala y elasticidades de sustitución, no coeficientes sueltos de la Translog.
+- En un corte anual el deflactor varía solo entre grupos. Con efectos fijos de grupo se absorben los términos lineales en el logaritmo del deflactor, pero no los cuadráticos ni los cruzados, así que la elección del deflactor puede seguir moviendo las elasticidades.
+- Pruebas de robustez con `ipp_ciiu3d_anual_variantes`: excluir `fragil`, usar `ipp_div_fragiles` o el panel de divisiones, y reestimar con `ipp_conteo`, `ipp_pesos2007` e `ipp_pesos2011`.
 
 ## Validación
 
@@ -124,7 +161,7 @@ Se propone el grupo (3 dígitos) como nivel objetivo por dos razones:
 
 ## Limitaciones y trabajo pendiente
 
-1. **Grupos frágiles sin solución con los datos públicos.** Para los 10 grupos de `FRAGILE_GROUPS` el deflactor 2007–2014 depende de una elección sin respaldo en datos (conteo o división padre). En electrónica (263, 264) la diferencia entre ambas llega a 30 puntos en 2007. 191 (coque) termina en la división padre, dominada por la refinación. En la Translog conviene probar la robustez excluyendo estos grupos o usando `ipp_div_fragiles`. Resolverlo exige la clasificación de esas plantas (no está en el archivo público) o las ponderaciones del IPP base 2006. La EAM excluye plantas pequeñas, así que los pesos representan la industria de 10 o más ocupados.
+1. **Grupos frágiles sin solución con los datos públicos.** Para los 10 grupos de `FRAGILE_GROUPS` el deflactor 2007–2014 depende de una elección sin respaldo en datos (conteo o división padre). En electrónica (263, 264) la diferencia entre ambas llega a 30 puntos en 2007. 191 (coque) termina en la división padre, dominada por la refinación. En la Translog conviene probar la robustez excluyendo estos grupos o usando `ipp_div_fragiles`. Resolverlo exige la clasificación de esas plantas (no está en el archivo público) o las ponderaciones del IPP base 2006.
 2. **Chequeo ponderado contra el Total oficial** (requiere ponderadores) y revisión individual de atípicos/quiebres de `PanelValidator` (354 atípicos y 102 "quiebres" con umbrales por defecto; sin errores de empalme evidentes).
 3. **Nivel de clase (4 dígitos):** no implementado; la literatura lo considera inviable para series largas.
 4. **Unión con la EAM:** falta el diccionario CIIU de las firmas → grupo del panel (la EAM usa Rev. 3 o Rev. 4 según el año).
