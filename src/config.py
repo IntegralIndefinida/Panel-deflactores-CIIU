@@ -39,6 +39,10 @@ FILE_CROSSWALK_31_4 = 'TC-CIIU-3-1ACvsCIIU-4AC-2020.xlsx'
 FILE_CROSSWALK_3_4 = 'TC-CIIU-3ACvsCIIU-4AC-2020.xlsx'
 FILE_PESOS_EAM = 'pesos_eam_rev3_rev4.csv'      # data/processed, de scripts/build_eam_weights.py
 WEIGHT_YEARS = (2007, 2011)                     # años de referencia de los pesos por valor
+# Grupos manufactureros de 3 dígitos con retropolación poco fiable; se reportan también con su división padre
+# (scripts/build_variants.py). Sin plantas EAM con vínculo válido y con varios orígenes o un origen sin índice:
+# 120, 261, 263, 264, 273, 301, 302, 303. Muy sensibles al año de los pesos (>5 puntos en 2007): 191, 323.
+FRAGILE_GROUPS = ('120', '191', '261', '263', '264', '273', '301', '302', '303', '323')
 FILE_BANREP_1999 = '1_IPP_base_1999_segun_actividad_economica_iqy.csv'   # exportación manual BanRep
 FILE_BANREP_OI_TOTAL = '1_IPP_2014_Total_iqy.csv'                        # exportación manual BanRep
 

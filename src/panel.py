@@ -45,13 +45,14 @@ def _with_value(val: pd.DataFrame, cnt: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int = 2018,
-                eam_links: pd.DataFrame | None = None, aggregation: str = 'geometric'):
+                eam_links: pd.DataFrame | None = None, aggregation: str = 'geometric',
+                force_division: tuple = ()):
     """Devuelve (panel_largo, info). Base `rebase_year` = 100 (promedio anual).
 
     eam_links (anio, c3, c4, valor; ver src/eam_weights.py): si se da, los orígenes se ponderan por valor
     de producción, con pesos interpolados entre los años de referencia; si no, por conteo de vínculos.
     aggregation: 'geometric' (tasas log encadenadas) o 'arithmetic' (Laspeyres de pesos fijos, rebasado al
-    año de los pesos; requiere un solo año)."""
+    año de los pesos; requiere un solo año). force_division: grupos que se retropolan con su división padre."""
     if digits not in LEVEL:
         raise ValueError('digits debe ser 2 o 3')
     a06 = load_dane_annex(raw / FILE_ANEXO_2006)
@@ -72,6 +73,7 @@ def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int =
         # respaldo: grupos Rev4 sin contraparte con dato se retropolan con la división padre
         old = pd.concat([old, _wide(a06, 'division')], axis=1)
         fallback = set().union(*(_fallback_groups(w, old.columns, new.columns) for w in ws.values()))
+        fallback |= set(force_division) & set(new.columns)
         fallback = {g for g in fallback if any(((wd['d4'] == g[:2]) & wd['d31'].isin(old.columns)).any()
                                                for wd in wdivs.values())}
     w = pd.concat([_resolve(ws[y], wdivs[y], old.columns, fallback).assign(anio=y) for y in ws], ignore_index=True)

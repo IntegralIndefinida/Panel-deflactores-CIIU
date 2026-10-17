@@ -3,6 +3,7 @@
 
     python main.py [--digits 3] [--rebase-year 2018] [--freq M|Y] [--formats parquet,csv,stata]
                    [--weights value|count] [--weight-years 2007,2011] [--aggregation geometric|arithmetic]
+                   [--division-groups 191,263,...]
 
 Requiere data/raw y data/crosswalks (ver scripts/download_sources.py) y, con --weights value (por
 defecto), data/processed/pesos_eam_rev3_rev4.csv (ver scripts/build_eam_weights.py).
@@ -13,7 +14,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.config import FINAL_BASE_YEAR, FILE_BANREP_OI_TOTAL, FILE_PESOS_EAM, WEIGHT_YEARS, ProjectPaths, setup_logging, COL_DATE, COL_CIIU, COL_IPP
+from src.config import FINAL_BASE_YEAR, FILE_BANREP_OI_TOTAL, FILE_PESOS_EAM, WEIGHT_YEARS, FRAGILE_GROUPS, ProjectPaths, setup_logging, COL_DATE, COL_CIIU, COL_IPP
 from src.panel import build_panel, consistency_vs_official, to_annual
 from src.quality_checks import PanelValidator, PanelExporter
 
@@ -33,6 +34,9 @@ def main():
                     help='años de referencia de los pesos por valor; varios = interpolación lineal (default 2007,2011)')
     ap.add_argument('--aggregation', choices=['geometric', 'arithmetic'], default='geometric',
                     help='geometric: tasas log encadenadas (default); arithmetic: Laspeyres de pesos fijos (un solo año de pesos)')
+    ap.add_argument('--division-groups', default='',
+                    help="grupos que se retropolan con su división padre, separados por coma; 'fragiles' = "
+                         + ','.join(FRAGILE_GROUPS))
     ap.add_argument('--verbose', action='store_true')
     a = ap.parse_args()
     setup_logging(logging.DEBUG if a.verbose else logging.INFO)
@@ -45,6 +49,7 @@ def main():
     years = sorted(int(y) for y in a.weight_years.split(','))
     if a.aggregation == 'arithmetic' and a.weights == 'value' and len(years) > 1:
         ap.error('--aggregation arithmetic usa pesos fijos: pasar un solo año, p. ej. --weight-years 2011')
+    force = FRAGILE_GROUPS if a.division_groups == 'fragiles' else tuple(g for g in a.division_groups.split(',') if g)
     links = None
     if a.weights == 'value':
         f = paths.processed / FILE_PESOS_EAM
@@ -58,9 +63,10 @@ def main():
     # sufijo de archivo solo para especificaciones distintas de la principal
     tag = '_conteo' if a.weights == 'count' else ('' if tuple(years) == WEIGHT_YEARS else '_pesos' + '-'.join(map(str, years)))
     tag += '_aritmetico' if a.aggregation == 'arithmetic' else ''
+    tag += ('_divfragiles' if force == FRAGILE_GROUPS else '_div' + '-'.join(force)) if force else ''
     logger.info('Ponderación: %s', 'conteo de vínculos' if links is None else f'valor EAM, años {years}')
 
-    panel, info = build_panel(paths.raw, paths.crosswalks, a.digits, a.rebase_year, links, a.aggregation)
+    panel, info = build_panel(paths.raw, paths.crosswalks, a.digits, a.rebase_year, links, a.aggregation, force)
     logger.info('Panel: %d series, %s → %s, %d obs', panel[COL_CIIU].nunique(),
                 panel[COL_DATE].min().strftime('%Y-%m'), panel[COL_DATE].max().strftime('%Y-%m'), len(panel))
     logger.info('Grupos retropolados vía división padre: %s', info['fallback_division'] or 'ninguno')
