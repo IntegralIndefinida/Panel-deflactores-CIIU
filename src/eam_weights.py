@@ -4,7 +4,8 @@ La EAM publica Rev 3 hasta 2011 y Rev 4 desde 2012, y `nordest` identifica al mi
 entre años. El código Rev 4 que el DANE asignó a cada planta en el año de enlace (2012) se cruza con
 su código Rev 3 del año de referencia. Reglas:
 - Solo cuentan los vínculos compatibles con la correlativa oficial Rev 3 → Rev 4; los demás son
-  cambios de actividad o códigos enmascarados por anonimización y se descartan.
+  cambios de actividad o códigos que no reflejan la actividad (posiblemente por la anonimización del
+  archivo público) y se descartan.
 - Las plantas del año de referencia que no aparecen en el año de enlace reparten su valor según las
   participaciones observadas de su clase en ese mismo año.
 """

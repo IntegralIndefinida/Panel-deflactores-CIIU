@@ -19,7 +19,7 @@ def test_observed_links_follow_plant_codes():
 
 
 def test_incompatible_links_are_dropped_not_reallocated():
-    # planta 2 pasa de 1511 a refinación: no está en la correlativa (código enmascarado o cambio de actividad)
+    # planta 2 pasa de 1511 a refinación: no está en la correlativa (código que no refleja la actividad o cambio de actividad)
     out, st = _links([(1, '1511', 60.0), (2, '1511', 900.0)], [(1, '1011'), (2, '1921')])
     assert out['valor'].sum() == 60 and not (out['c4'] == '1921').any()
     assert np.isclose(st['descartado_incompatible'], 900 / 960)
