@@ -5,7 +5,8 @@ w[d4, d31] es la participación del origen d31 en el destino d4. Dos variantes:
 - valor (`value_weights`): participación en el valor de producción de la EAM de las plantas
   que pasan de d31 (Rev 3, año de referencia) a d4 (Rev 4, año de enlace); ver src/eam_weights.py.
 La serie retropolada de cada d4 usa la tasa de crecimiento log mensual ponderada de los d31
-vinculados. Con varios años de referencia (columna `anio`) los pesos se interpolan linealmente.
+vinculados (agregación geométrica). Con varios años de referencia (columna `anio`) los pesos se
+interpolan linealmente. Como contraste, `method='arithmetic'` agrega los niveles con pesos fijos (Laspeyres).
 """
 import re
 from pathlib import Path
@@ -63,10 +64,20 @@ def weight_path(g: pd.DataFrame, dates: pd.DatetimeIndex) -> pd.DataFrame:
     return pd.DataFrame({c: np.interp(t, x, W[c].to_numpy()) for c in W.columns}, index=dates)
 
 
-def backcast_divisions(old: pd.DataFrame, new: pd.DataFrame, w: pd.DataFrame, overlap: pd.Timestamp) -> pd.DataFrame:
+def backcast_divisions(old: pd.DataFrame, new: pd.DataFrame, w: pd.DataFrame, overlap: pd.Timestamp,
+                       method: str = 'geometric', ref_year: int | None = None) -> pd.DataFrame:
     """old: fecha x origen Rev3.1 (base 2006); new: fecha x destino Rev4; w: d4, d31, w [, anio].
-    Devuelve panel Rev4 continuo."""
+    Devuelve panel Rev4 continuo.
+
+    method='geometric': encadena la tasa de crecimiento log mensual ponderada (admite pesos interpolados).
+    method='arithmetic': Laspeyres de pesos fijos; los índices de origen se rebasan al promedio de
+    `ref_year` (año de referencia de los pesos; si es None, al mes de enlace) y se promedian con los pesos."""
+    if method not in ('geometric', 'arithmetic'):
+        raise ValueError("method debe ser 'geometric' o 'arithmetic'")
+    if method == 'arithmetic' and 'anio' in w and w['anio'].nunique() > 1:
+        raise ValueError('la agregación aritmética usa pesos fijos: un solo año de referencia')
     dlog = np.log(old).diff()
+    ref = old.index.year == ref_year if ref_year is not None else old.index == overlap
     out = {}
     for d4, g in w.groupby('d4'):
         if d4 not in new.columns:
@@ -75,13 +86,18 @@ def backcast_divisions(old: pd.DataFrame, new: pd.DataFrame, w: pd.DataFrame, ov
         if g.empty:
             continue
         wt = weight_path(g, dlog.index)
-        g_ = dlog[wt.columns]
-        # renormaliza los pesos en cada mes sobre los componentes con dato
-        growth = (g_ * wt).sum(axis=1, min_count=1) / (g_.notna() * wt).sum(axis=1)
-        growth = growth.loc[growth.index <= overlap].fillna(0)
-        # índice hacia atrás desde el traslape (valor new en overlap)
-        lvl = new.loc[overlap, d4] * np.exp(-growth.iloc[::-1].cumsum().iloc[::-1].shift(-1, fill_value=0))
-        # lvl[t] = new[ov] * exp(-sum_{s>t}^{ov} growth[s])
+        if method == 'arithmetic':
+            rel = old[wt.columns] / old.loc[ref, wt.columns].mean()
+            agg = (rel * wt).sum(axis=1, min_count=1) / (rel.notna() * wt).sum(axis=1)
+            lvl = new.loc[overlap, d4] * agg / agg.loc[overlap]
+        else:
+            g_ = dlog[wt.columns]
+            # renormaliza los pesos en cada mes sobre los componentes con dato
+            growth = (g_ * wt).sum(axis=1, min_count=1) / (g_.notna() * wt).sum(axis=1)
+            growth = growth.loc[growth.index <= overlap].fillna(0)
+            # índice hacia atrás desde el traslape (valor new en overlap)
+            lvl = new.loc[overlap, d4] * np.exp(-growth.iloc[::-1].cumsum().iloc[::-1].shift(-1, fill_value=0))
+            # lvl[t] = new[ov] * exp(-sum_{s>t}^{ov} growth[s])
         lvl = lvl[lvl.index < overlap]
         out[d4] = pd.concat([lvl, new[d4].dropna()])
     return pd.DataFrame(out).sort_index()

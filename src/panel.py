@@ -45,11 +45,13 @@ def _with_value(val: pd.DataFrame, cnt: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int = 2018,
-                eam_links: pd.DataFrame | None = None):
+                eam_links: pd.DataFrame | None = None, aggregation: str = 'geometric'):
     """Devuelve (panel_largo, info). Base `rebase_year` = 100 (promedio anual).
 
     eam_links (anio, c3, c4, valor; ver src/eam_weights.py): si se da, los orígenes se ponderan por valor
-    de producción, con pesos interpolados entre los años de referencia; si no, por conteo de vínculos."""
+    de producción, con pesos interpolados entre los años de referencia; si no, por conteo de vínculos.
+    aggregation: 'geometric' (tasas log encadenadas) o 'arithmetic' (Laspeyres de pesos fijos, rebasado al
+    año de los pesos; requiere un solo año)."""
     if digits not in LEVEL:
         raise ValueError('digits debe ser 2 o 3')
     a06 = load_dane_annex(raw / FILE_ANEXO_2006)
@@ -77,7 +79,8 @@ def build_panel(raw: Path, crosswalks: Path, digits: int = 3, rebase_year: int =
         w = w.drop(columns='anio')
     info['fallback_division'] = sorted(fallback)
 
-    s = backcast_divisions(old, new, w, OVERLAP)
+    ref_year = next(iter(ws)) if aggregation == 'arithmetic' and len(ws) == 1 else None
+    s = backcast_divisions(old, new, w, OVERLAP, aggregation, ref_year)
     s = s[[c for c in s.columns if c in new.columns]]
     info['solo_desde_2014'] = sorted(c for c in s.columns if s[c].first_valid_index() > pd.Timestamp('2006-12-01'))
     s = s / s.loc[str(rebase_year)].mean() * 100

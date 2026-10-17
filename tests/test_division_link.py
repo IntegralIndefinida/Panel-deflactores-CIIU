@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 import pandas as pd
 
 from src.division_link import backcast_divisions, value_weights
@@ -69,3 +70,28 @@ def test_value_weights_are_value_shares_by_destination():
     links.loc[2, 'c4'] = '1012'
     w3 = value_weights(links, 3).set_index(['d4', 'd31'])['w']
     assert np.isclose(w3[('101', '151')], 40 / 45) and np.isclose(w3[('101', '152')], 5 / 45)
+
+
+def test_arithmetic_single_parent_equals_geometric():
+    w = pd.DataFrame({'d4': ['X'], 'd31': ['A'], 'w': [1.0]})
+    a = backcast_divisions(_old(), _new(), w, OV, 'arithmetic')
+    assert np.allclose(a['X'], backcast_divisions(_old(), _new(), w, OV)['X'])
+
+
+def test_arithmetic_is_weighted_mean_of_rebased_levels():
+    w = pd.DataFrame({'d4': ['X', 'X'], 'd31': ['A', 'B'], 'w': [0.25, 0.75]})
+    old = _old()
+    out = backcast_divisions(old, _new(), w, OV, 'arithmetic')['X']
+    rel = 0.25 * old['A'] / old.loc[OV, 'A'] + 0.75 * old['B'] / old.loc[OV, 'B']
+    assert np.allclose(out.loc[:OV], 100 * rel.loc[:OV])
+    # con año de referencia, los niveles se rebasan a su promedio (pesos de valor de ese año)
+    out14 = backcast_divisions(old, _new(), w, OV, 'arithmetic', ref_year=2014)['X']
+    m = old.loc['2014'].mean()
+    rel14 = 0.25 * old['A'] / m['A'] + 0.75 * old['B'] / m['B']
+    assert np.allclose(out14.loc[:OV], 100 * rel14.loc[:OV] / rel14.loc[OV])
+
+
+def test_arithmetic_rejects_time_varying_weights():
+    w = pd.DataFrame({'anio': [2013, 2014], 'd4': 'X', 'd31': ['A', 'A'], 'w': [1.0, 1.0]})
+    with pytest.raises(ValueError):
+        backcast_divisions(_old(), _new(), w, OV, 'arithmetic')

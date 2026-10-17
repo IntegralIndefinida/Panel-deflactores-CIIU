@@ -14,7 +14,7 @@ python main.py --digits 3                 # grupos; --digits 2 = divisiones; --f
 python -m pytest                          # pruebas
 ```
 
-Opciones de `main.py`: `--digits {2,3}`, `--rebase-year` (2018), `--freq {M,Y}`, `--formats parquet,csv,stata,excel`, `--output-dir`, `--weights {value,count}` (value), `--weight-years` (2007,2011). Las especificaciones distintas de la principal se exportan con sufijo: `_conteo` (`--weights count`) o `_pesos2007` (`--weight-years 2007`), etc.
+Opciones de `main.py`: `--digits {2,3}`, `--rebase-year` (2018), `--freq {M,Y}`, `--formats parquet,csv,stata,excel`, `--output-dir`, `--weights {value,count}` (value), `--weight-years` (2007,2011), `--aggregation {geometric,arithmetic}` (geometric; arithmetic exige un solo año de pesos). Las especificaciones distintas de la principal se exportan con sufijo: `_conteo`, `_pesos2011`, `_aritmetico`, combinables.
 
 `scripts/build_eam_weights.py` lee los microdatos de la EAM del proyecto hermano `../EAM/data/datos` (cambiar con `--eam-dir`). Sin ese archivo, `main.py` solo corre con `--weights count`.
 
@@ -58,6 +58,8 @@ Los datos son de los respectivos titulares (DANE, Banco de la República); este 
    - **Por conteo (contraste, `--weights count`).** Fracción de vínculos clase-clase de la correlativa Rev. 3.1 → Rev. 4, sin ponderaciones.
 
    Los grupos Rev. 4 con menos de 50 % del peso en orígenes con dato en algún año de referencia usan su división padre: 020, 030, 051, 191 y 301 por valor; 020, 030, 051, 243 y 301 por conteo.
+
+   **Agregación.** La principal es geométrica: se encadenan tasas log mensuales ponderadas, lo que admite pesos que cambian en el tiempo. Como contraste, `--aggregation arithmetic` es un Laspeyres de pesos fijos (la variante de Destatis descrita por Eurostat): los índices de origen se rebasan al promedio del año de los pesos y se promedian con ellos.
 3. **Re-basado:** promedio del año `--rebase-year` = 100 por serie.
 4. **Sectores amplios:** empalme por razón en el mes de traslape (base 1999 → base 2006 en 2006-12; base 2006 → base 2014 en 2014-12).
 
@@ -67,6 +69,7 @@ Los datos son de los respectivos titulares (DANE, Banco de la República); este 
 - Panel de grupos: 78/78 series completas, sin huecos ni duplicados; rebasado a 100 en el año base.
 - Plausibilidad frente al Total oficial (promedio simple, sin ponderadores; no es prueba de igualdad): correlación de variaciones mensuales 0.86 (2007–2014, retropolado; 0.83 con pesos por conteo) y 0.80 (2015–2026); inflación media anual del panel menor que la oficial (1.4 % vs 2.4 % y 4.1 % vs 5.4 %), esperable al no ponderar.
 - Pesos por valor frente a conteo, 67 grupos manufactureros: diferencia media de nivel de 2,0 puntos log en 2007, 0,9 en 2010 y 0,4 en 2014; 10 grupos difieren en más de 5 puntos en 2007 (los mayores: 191 coque −26, 243 fundición +12, 324 juguetes −11, 210 farmacéuticos −9, 311 muebles −9, 242 metales preciosos y no ferrosos −8). Pesos solo de 2007 frente a solo de 2011: diferencia media de 0,6 puntos en 2007; solo 191 (+26) y 323 (+6) superan 2 puntos.
+- Agregación aritmética frente a geométrica, ambas con pesos 2011: diferencia media de 0,13 puntos en 2007 y 0,01 en 2010; las mayores en electrónica (264: 3,7; 263: 2,2; 261: 1,6). La fórmula no cambia los resultados.
 - Pruebas automáticas en `tests/` (parsing de fuentes, retropolación sobre datos sintéticos y propiedades de los archivos finales).
 
 ### Casos atípicos
@@ -115,7 +118,7 @@ Se propone el grupo (3 dígitos) como nivel objetivo por dos razones:
 
 ## Limitaciones y trabajo pendiente
 
-1. **Pesos por valor: casos sin evidencia y frágiles.** 263 y 264 (electrónica) no tienen plantas con vínculo válido en la EAM y siguen con pesos por conteo. 191 (coque) depende del año de referencia y termina en la división padre, dominada por la refinación. Para 191, 263, 264, 301, 303 y 309 conviene reportar también la división padre. La EAM excluye plantas pequeñas, así que los pesos representan la industria de 10 o más ocupados. Pendiente: comparar la agregación geométrica actual (tasas log) con una aritmética de pesos fijos, más cercana al Laspeyres del DANE.
+1. **Pesos por valor: casos sin evidencia y frágiles.** 263 y 264 (electrónica) no tienen plantas con vínculo válido en la EAM y siguen con pesos por conteo. 191 (coque) depende del año de referencia y termina en la división padre, dominada por la refinación. Para 191, 263, 264, 301, 303 y 309 conviene reportar también la división padre. La EAM excluye plantas pequeñas, así que los pesos representan la industria de 10 o más ocupados.
 2. **Chequeo ponderado contra el Total oficial** (requiere ponderadores) y revisión individual de atípicos/quiebres de `PanelValidator` (354 atípicos y 102 "quiebres" con umbrales por defecto; sin errores de empalme evidentes).
 3. **Nivel de clase (4 dígitos):** no implementado; la literatura lo considera inviable para series largas.
 4. **Unión con la EAM:** falta el diccionario CIIU de las firmas → grupo del panel (la EAM usa Rev. 3 o Rev. 4 según el año).

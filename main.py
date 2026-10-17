@@ -2,7 +2,7 @@
 """Panel IPP Colombia por CIIU Rev 4 (2006-12 → presente), base `--rebase-year` = 100.
 
     python main.py [--digits 3] [--rebase-year 2018] [--freq M|Y] [--formats parquet,csv,stata]
-                   [--weights value|count] [--weight-years 2007,2011]
+                   [--weights value|count] [--weight-years 2007,2011] [--aggregation geometric|arithmetic]
 
 Requiere data/raw y data/crosswalks (ver scripts/download_sources.py) y, con --weights value (por
 defecto), data/processed/pesos_eam_rev3_rev4.csv (ver scripts/build_eam_weights.py).
@@ -31,6 +31,8 @@ def main():
                     help='ponderación de los orígenes en la retropolación: valor de producción EAM (default) o conteo de vínculos')
     ap.add_argument('--weight-years', default=','.join(map(str, WEIGHT_YEARS)),
                     help='años de referencia de los pesos por valor; varios = interpolación lineal (default 2007,2011)')
+    ap.add_argument('--aggregation', choices=['geometric', 'arithmetic'], default='geometric',
+                    help='geometric: tasas log encadenadas (default); arithmetic: Laspeyres de pesos fijos (un solo año de pesos)')
     ap.add_argument('--verbose', action='store_true')
     a = ap.parse_args()
     setup_logging(logging.DEBUG if a.verbose else logging.INFO)
@@ -41,6 +43,8 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     years = sorted(int(y) for y in a.weight_years.split(','))
+    if a.aggregation == 'arithmetic' and a.weights == 'value' and len(years) > 1:
+        ap.error('--aggregation arithmetic usa pesos fijos: pasar un solo año, p. ej. --weight-years 2011')
     links = None
     if a.weights == 'value':
         f = paths.processed / FILE_PESOS_EAM
@@ -53,9 +57,10 @@ def main():
         links = links[links['anio'].isin(years)]
     # sufijo de archivo solo para especificaciones distintas de la principal
     tag = '_conteo' if a.weights == 'count' else ('' if tuple(years) == WEIGHT_YEARS else '_pesos' + '-'.join(map(str, years)))
+    tag += '_aritmetico' if a.aggregation == 'arithmetic' else ''
     logger.info('Ponderación: %s', 'conteo de vínculos' if links is None else f'valor EAM, años {years}')
 
-    panel, info = build_panel(paths.raw, paths.crosswalks, a.digits, a.rebase_year, links)
+    panel, info = build_panel(paths.raw, paths.crosswalks, a.digits, a.rebase_year, links, a.aggregation)
     logger.info('Panel: %d series, %s → %s, %d obs', panel[COL_CIIU].nunique(),
                 panel[COL_DATE].min().strftime('%Y-%m'), panel[COL_DATE].max().strftime('%Y-%m'), len(panel))
     logger.info('Grupos retropolados vía división padre: %s', info['fallback_division'] or 'ninguno')
